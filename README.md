@@ -14,6 +14,13 @@ https://osf.io/4zxym/
 
 A more detailed README file is in each subfolder
 
+
+1. pdbs/ -> preprocessing and cleaning steps for the PDB files
+2. simulations_analysis -> all the analyses done on free and membrane-bound simulations
+
+
+
+
 Please cite our publication if you use the material in this repository
 
 Software versions: rosetta 3.11, gromacs 5, foldx-suite5

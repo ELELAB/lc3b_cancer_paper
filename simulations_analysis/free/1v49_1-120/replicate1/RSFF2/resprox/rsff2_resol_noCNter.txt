@@ -1,0 +1,113 @@
+The predicted resolution(Å) of your protein 'movie.dt10000_AAnoCNter.pdb ' is: 
+Model 1:	0	Detail
+Model 2:	1.249	Detail
+Model 3:	1.039	Detail
+Model 4:	1.475	Detail
+Model 5:	1.072	Detail
+Model 6:	1.171	Detail
+Model 7:	1.411	Detail
+Model 8:	1.358	Detail
+Model 9:	1.512	Detail
+Model 10:	1.051	Detail
+Model 11:	1.228	Detail
+Model 12:	1.401	Detail
+Model 13:	1.438	Detail
+Model 14:	0.95	Detail
+Model 15:	1.151	Detail
+Model 16:	1.238	Detail
+Model 17:	1.37	Detail
+Model 18:	1.548	Detail
+Model 19:	1.376	Detail
+Model 20:	1.358	Detail
+Model 21:	1.216	Detail
+Model 22:	1.145	Detail
+Model 23:	1.11	Detail
+Model 24:	1.277	Detail
+Model 25:	1.488	Detail
+Model 26:	1.153	Detail
+Model 27:	0.973	Detail
+Model 28:	1.301	Detail
+Model 29:	1.094	Detail
+Model 30:	0.952	Detail
+Model 31:	1.172	Detail
+Model 32:	1.516	Detail
+Model 33:	1.301	Detail
+Model 34:	1.428	Detail
+Model 35:	0.951	Detail
+Model 36:	0.874	Detail
+Model 37:	1.304	Detail
+Model 38:	1.337	Detail
+Model 39:	1.676	Detail
+Model 40:	1.316	Detail
+Model 41:	1.266	Detail
+Model 42:	1.43	Detail
+Model 43:	1.192	Detail
+Model 44:	1.288	Detail
+Model 45:	1.086	Detail
+Model 46:	1.13	Detail
+Model 47:	1.204	Detail
+Model 48:	1.125	Detail
+Model 49:	1.314	Detail
+Model 50:	1.152	Detail
+Model 51:	1.165	Detail
+Model 52:	1.294	Detail
+Model 53:	0	Detail
+Model 54:	0.77	Detail
+Model 55:	1.274	Detail
+Model 56:	1.361	Detail
+Model 57:	1.208	Detail
+Model 58:	1.162	Detail
+Model 59:	1.216	Detail
+Model 60:	1.455	Detail
+Model 61:	1.102	Detail
+Model 62:	1.325	Detail
+Model 63:	1.439	Detail
+Model 64:	1.271	Detail
+Model 65:	1.604	Detail
+Model 66:	1.451	Detail
+Model 67:	1.195	Detail
+Model 68:	1.311	Detail
+Model 69:	1.2	Detail
+Model 70:	1.146	Detail
+Model 71:	0.958	Detail
+Model 72:	1.275	Detail
+Model 73:	1.006	Detail
+Model 74:	1.373	Detail
+Model 75:	1.075	Detail
+Model 76:	1.175	Detail
+Model 77:	1.318	Detail
+Model 78:	0.837	Detail
+Model 79:	1.186	Detail
+Model 80:	1.496	Detail
+Model 81:	1.274	Detail
+Model 82:	0.952	Detail
+Model 83:	1.206	Detail
+Model 84:	1.311	Detail
+Model 85:	1.11	Detail
+Model 86:	1.338	Detail
+Model 87:	1.274	Detail
+Model 88:	1.371	Detail
+Model 89:	1.164	Detail
+Model 90:	1.525	Detail
+Model 91:	1.405	Detail
+Model 92:	1.265	Detail
+Model 93:	1.445	Detail
+Model 94:	1.143	Detail
+Model 95:	1.27	Detail
+Model 96:	1.354	Detail
+Model 97:	1.305	Detail
+Model 98:	1.35	Detail
+Model 99:	1.324	Detail
+Model 100:	1.062	Detail
+Model 101:	1.509	Detail
+Mean:	1.225	Average Detail
+Standard Diviation:	0.243
+Maximum:	1.676
+Minimum:	0
+
+
+
+Good: 0-1.5
+Middle: 1.5-2.5
+Bad: > 2.5
+
