@@ -1,0 +1,161 @@
+Position;Phosphorylation site;Methylation site;Ubiquitination site;Caspase cleavage site;S-Nitrosylation site;Acetylation site;Sumoylation site;Residue part of a linear motif;WT residue;Mutated residue;Sources;Cancer study;Cancer type;Genomic coordinates;Genomic mutation;Revel score
+1;-;-;-;-;-;-;-;;M
+2;-;-;-;-;-;-;-;;P;L;COSMIC;-;carcinoma;hg38,chr1:241999004-241999004;hg38,chr1:241999004G>A;0.033
+2;-;-;-;-;-;-;-;;P;S;cBioPortal,COSMIC;coad_tcga_pan_can_atlas_2018, coadread_tcga, coadread_tcga_pub;Colon Adenocarcinoma, Colorectal Adenocarcinoma, carcinoma;hg19,chr1:242162307-242162307, hg38,chr1:241999005-241999005;hg19,chr1:242162307G>A, hg38,chr1:241999005G>A;0.026
+3;-;-;-;-;-;-;-;;P
+4;-;-;-;-;-;-;-;;P;A;cBioPortal,COSMIC;luad_tcga, luad_tcga_pan_can_atlas_2018, luad_tcga_pub, nsclc_tcga_broad_2016;Lung Adenocarcinoma, Non-Small Cell Lung Cancer, carcinoma;hg19,chr1:242162301-242162301, hg38,chr1:241998999-241998999;hg19,chr1:242162301G>C, hg38,chr1:241998999G>C;0.035
+5;-;-;-;-;-;-;-;;Q
+6;-;-;-;-;-;-;-;;K
+7;-;-;-;-;-;-;-;;I;F;COSMIC;-;chondrosarcoma;hg38,chr1:241998990-241998990;hg38,chr1:241998990T>A;0.020
+8;-;-;-;-;-;-;-;;P;S;cBioPortal,COSMIC;cscc_hgsc_bcm_2014;Cutaneous Squamous Cell Carcinoma, carcinoma;hg19,chr1:242162289-242162289, hg38,chr1:241998987-241998987;hg19,chr1:242162289G>A, hg38,chr1:241998987G>A;0.056
+9;-;-;-;-;-;-;-;;S
+10;-;-;-;-;-;-;-;;V;I;cBioPortal;hnsc_tcga, hnsc_tcga_pan_can_atlas_2018, hnsc_tcga_pub;Head and Neck Squamous Cell Carcinoma;hg19,chr1:242162283-242162283;hg19,chr1:242162283C>T;0.029
+11;-;-;-;-;-;-;-;MAPK docking motifs, 3, 11-21, ELM;R
+12;-;-;-;-;-;-;-;MAPK docking motifs, 3, 11-21, ELM;P
+13;-;-;-;-;-;-;-;MAPK docking motifs, 3, 11-21, ELM;F;L;cBioPortal;tgct_tcga;Tenosynovial Giant Cell Tumor Diffuse Type;hg19,chr1:242162272-242162272;hg19,chr1:242162272G>T;0.285
+14;-;-;-;-;-;-;-;MAPK docking motifs, 3, 11-21, ELM|MAPK docking motifs, 4, 14-21, ELM;K
+15;-;-;-;-;-;-;-;MAPK docking motifs, 3, 11-21, ELM|MAPK docking motifs, 4, 14-21, ELM;Q
+16;-;-;-;-;-;-;-;MAPK docking motifs, 3, 11-21, ELM|MAPK docking motifs, 4, 14-21, ELM|14-3-3 binding phosphopeptide motif, 6, 16-20, ELM;R
+17;-;-;-;-;-;-;-;MAPK docking motifs, 3, 11-21, ELM|MAPK docking motifs, 4, 14-21, ELM|14-3-3 binding phosphopeptide motif, 6, 16-20, ELM;K
+18;-;-;-;-;-;-;-;MAPK docking motifs, 3, 11-21, ELM|MAPK docking motifs, 4, 14-21, ELM|14-3-3 binding phosphopeptide motif, 6, 16-20, ELM;S;C;cBioPortal,COSMIC;ov_tcga_pan_can_atlas_2018;carcinoma, ov;hg19,chr1:242162259-242162259, hg38,chr1:241998957-241998957;hg19,chr1:242162259T>A, hg38,chr1:241998957T>A;0.128
+19;-;-;-;-;-;-;-;MAPK docking motifs, 3, 11-21, ELM|MAPK docking motifs, 4, 14-21, ELM|14-3-3 binding phosphopeptide motif, 6, 16-20, ELM;L
+20;-;-;-;-;-;-;-;MAPK docking motifs, 3, 11-21, ELM|MAPK docking motifs, 4, 14-21, ELM|14-3-3 binding phosphopeptide motif, 6, 16-20, ELM;A
+21;-;-;-;-;-;-;-;MAPK docking motifs, 3, 11-21, ELM|MAPK docking motifs, 4, 14-21, ELM;I;F;COSMIC;-;carcinoma;hg38,chr1:241998829-241998829;hg38,chr1:241998829T>A;0.041
+22;-;-;-;-;-;-;-;;R
+23;-;-;-;-;-;-;-;;Q
+24;-;-;-;-;-;-;-;;E;D;COSMIC;-;carcinoma;hg38,chr1:241998818-241998818;hg38,chr1:241998818C>A;0.110
+24;-;-;-;-;-;-;-;;E;Q;cBioPortal;brca_tcga_pan_can_atlas_2018;Invasive Breast Carcinoma;hg19,chr1:242162122-242162122;hg19,chr1:242162122C>G;0.042
+25;-;-;-;-;-;-;-;;E
+26;-;-;-;-;-;-;-;;V
+27;-;-;-;-;-;-;-;;A
+28;-;-;-;-;-;-;-;;G
+29;-;-;-;-;-;-;-;MAPK docking motifs, 1, 29-41, ELM;I
+30;-;-;-;-;-;-;-;MAPK docking motifs, 1, 29-41, ELM|MAPK docking motifs, 5, 30-39, ELM;R
+31;-;-;-;-;-;-;-;MAPK docking motifs, 1, 29-41, ELM|MAPK docking motifs, 5, 30-39, ELM;A;V;cBioPortal;ucec_tcga_pan_can_atlas_2018;Endometrial Carcinoma;hg19,chr1:242162100-242162100;hg19,chr1:242162100G>A;0.092
+32;-;-;-;-;-;-;-;MAPK docking motifs, 1, 29-41, ELM|MAPK docking motifs, 2, 32-41, ELM|MAPK docking motifs, 5, 30-39, ELM;K
+33;-;-;-;-;-;-;-;MAPK docking motifs, 1, 29-41, ELM|MAPK docking motifs, 2, 32-41, ELM|MAPK docking motifs, 5, 30-39, ELM;F
+34;-;-;-;-;-;-;-;MAPK docking motifs, 1, 29-41, ELM|MAPK docking motifs, 2, 32-41, ELM|MAPK docking motifs, 5, 30-39, ELM;P
+35;-;-;-;-;-;-;-;MAPK docking motifs, 1, 29-41, ELM|MAPK docking motifs, 2, 32-41, ELM|MAPK docking motifs, 5, 30-39, ELM;N;S;cBioPortal;sarc_tcga_pan_can_atlas_2018;sarc;hg19,chr1:242162088-242162088;hg19,chr1:242162088T>C;0.073
+36;-;-;-;-;-;-;-;MAPK docking motifs, 1, 29-41, ELM|MAPK docking motifs, 2, 32-41, ELM|MAPK docking motifs, 5, 30-39, ELM;K;T;cBioPortal,COSMIC;ucec_tcga, ucec_tcga_pan_can_atlas_2018, ucec_tcga_pub;Endometrial Carcinoma, carcinoma;hg19,chr1:242162085-242162085, hg38,chr1:241998783-241998783;hg19,chr1:242162085T>G, hg38,chr1:241998783T>G;0.433
+37;-;-;-;-;-;-;-;MAPK docking motifs, 1, 29-41, ELM|MAPK docking motifs, 2, 32-41, ELM|MAPK docking motifs, 5, 30-39, ELM;I
+38;-;-;-;-;-;-;-;MAPK docking motifs, 1, 29-41, ELM|MAPK docking motifs, 2, 32-41, ELM|MAPK docking motifs, 5, 30-39, ELM;P;L;cBioPortal,COSMIC;cscc_hgsc_bcm_2014;Cutaneous Squamous Cell Carcinoma, carcinoma;hg19,chr1:242162079-242162079, hg38,chr1:241998777-241998777;hg19,chr1:242162079G>A, hg38,chr1:241998777G>A;0.710
+39;-;-;-;-;-;-;-;MAPK docking motifs, 1, 29-41, ELM|MAPK docking motifs, 2, 32-41, ELM|MAPK docking motifs, 5, 30-39, ELM;V
+40;-;-;-;-;-;-;-;MAPK docking motifs, 1, 29-41, ELM|MAPK docking motifs, 2, 32-41, ELM;V
+41;-;-;-;-;-;-;-;MAPK docking motifs, 1, 29-41, ELM|MAPK docking motifs, 2, 32-41, ELM;V
+42;-;-;-;-;-;-;-;;E;V;cBioPortal;nepc_wcm_2016;nepc;hg19,chr1:242161912-242161912;hg19,chr1:242161912T>A;0.712
+43;-;-;-;-;-;-;-;;R
+44;-;-;-;-;-;-;-;;Y;C;cBioPortal,COSMIC;coad_tcga_pan_can_atlas_2018;Colon Adenocarcinoma, carcinoma;hg19,chr1:242161906-242161906, hg38,chr1:241998604-241998604;hg19,chr1:242161906T>C, hg38,chr1:241998604T>C;0.219
+45;-;-;-;-;-;-;-;;P
+46;-;-;-;-;-;-;-;;R;G;cBioPortal,COSMIC;coadread_genentech;Colorectal Adenocarcinoma, carcinoma;hg19,chr1:242161901-242161901, hg38,chr1:241998599-241998599;hg19,chr1:242161901T>C, hg38,chr1:241998599T>C;0.074
+46;-;-;-;-;-;-;-;;R;M;COSMIC;-;carcinoma;hg38,chr1:241998598-241998598;hg38,chr1:241998598C>A;0.128
+47;-;-;-;-;-;-;-;;E
+48;-;-;-;-;-;-;-;;T
+49;-;-;-;-;-;-;-;;F
+50;-;-;-;-;-;-;-;;L
+51;-;-;-;-;-;-;-;;P
+52;-;-;-;-;-;-;-;;P;L;cBioPortal,COSMIC;lusc_tcga, lusc_tcga_pan_can_atlas_2018, lusc_tcga_pub, nsclc_tcga_broad_2016;Lung Squamous Cell Carcinoma, Non-Small Cell Lung Cancer, carcinoma;hg19,chr1:242161882-242161882, hg38,chr1:241998580-241998580;hg19,chr1:242161882G>A, hg38,chr1:241998580G>A;0.049
+52;-;-;-;-;-;-;-;;P;S;COSMIC;-;carcinoma;hg38,chr1:241998581-241998581;hg38,chr1:241998581G>A;0.047
+53;-;-;-;-;-;-;-;;L
+54;-;-;-;-;-;-;-;Cyclin docking motif, 0, 54-65, ELM;D;N;cBioPortal,COSMIC;skcm_broad_brafresist_2012;Cutaneous Melanoma, carcinoma, malignant_melanoma;hg19,chr1:242161877-242161877, hg38,chr1:241998575-241998575;hg19,chr1:242161877C>T, hg38,chr1:241998575C>T;0.270
+55;-;-;-;-;-;-;-;Cyclin docking motif, 0, 54-65, ELM;K
+56;-;-;-;-;-;-;-;Cyclin docking motif, 0, 54-65, ELM;T
+57;-;-;-;-;-;-;-;Cyclin docking motif, 0, 54-65, ELM;K
+58;-;-;-;-;-;-;-;Cyclin docking motif, 0, 54-65, ELM;F
+59;-;-;-;-;-;-;-;Cyclin docking motif, 0, 54-65, ELM;L
+60;-;-;-;-;-;-;-;Cyclin docking motif, 0, 54-65, ELM;V
+61;-;-;-;-;-;-;-;Cyclin docking motif, 0, 54-65, ELM;P;S;COSMIC;-;carcinoma;hg38,chr1:241998554-241998554;hg38,chr1:241998554G>A;0.439
+62;-;-;-;-;-;-;-;Cyclin docking motif, 0, 54-65, ELM;Q
+63;-;-;-;-;-;-;-;Cyclin docking motif, 0, 54-65, ELM;E;V;cBioPortal,COSMIC;luad_broad;Lung Adenocarcinoma, carcinoma;hg19,chr1:242161849-242161849, hg38,chr1:241998547-241998547;hg19,chr1:242161849T>A, hg38,chr1:241998547T>A;0.199
+64;-;-;-;-;-;-;-;Cyclin docking motif, 0, 54-65, ELM;L
+65;-;-;-;-;-;-;-;Cyclin docking motif, 0, 54-65, ELM|Actin-binding motifs, 8, 65-82, ELM;T
+66;-;-;-;-;-;-;-;Actin-binding motifs, 8, 65-82, ELM|Actin-binding motifs, 9, 66-82, ELM;M
+67;-;-;-;-;-;-;-;Actin-binding motifs, 8, 65-82, ELM|Actin-binding motifs, 9, 66-82, ELM|Atg8 protein family ligands, 12, 67-72, ELM;T;I;cBioPortal,COSMIC;skcm_tcga, skcm_tcga_pan_can_atlas_2018;Cutaneous Melanoma, malignant_melanoma;hg19,chr1:242161837-242161837, hg38,chr1:241998535-241998535;hg19,chr1:242161837G>A, hg38,chr1:241998535G>A;0.100
+68;-;-;-;-;-;-;-;Actin-binding motifs, 8, 65-82, ELM|Actin-binding motifs, 9, 66-82, ELM|Atg8 protein family ligands, 12, 67-72, ELM|NES Nuclear Export Signal, 23, 68-83, ELM;Q
+69;-;-;-;-;-;-;-;Actin-binding motifs, 8, 65-82, ELM|Actin-binding motifs, 9, 66-82, ELM|Atg8 protein family ligands, 12, 67-72, ELM|NES Nuclear Export Signal, 23, 68-83, ELM;F
+70;-;-;-;-;-;-;-;Actin-binding motifs, 8, 65-82, ELM|Actin-binding motifs, 9, 66-82, ELM|Atg8 protein family ligands, 12, 67-72, ELM|NES Nuclear Export Signal, 23, 68-83, ELM;L
+71;-;-;-;-;-;-;-;Actin-binding motifs, 8, 65-82, ELM|Actin-binding motifs, 9, 66-82, ELM|Atg8 protein family ligands, 12, 67-72, ELM|NES Nuclear Export Signal, 23, 68-83, ELM;S;G;cBioPortal,COSMIC;ucec_tcga, ucec_tcga_pan_can_atlas_2018, ucec_tcga_pub;Endometrial Carcinoma, carcinoma;hg19,chr1:242161826-242161826, hg38,chr1:241998524-241998524;hg19,chr1:242161826T>C, hg38,chr1:241998524T>C;0.128
+72;-;-;-;-;-;-;-;Actin-binding motifs, 8, 65-82, ELM|Actin-binding motifs, 9, 66-82, ELM|Atg8 protein family ligands, 12, 67-72, ELM|NES Nuclear Export Signal, 23, 68-83, ELM;I
+73;-;-;-;-;-;-;-;Actin-binding motifs, 8, 65-82, ELM|Actin-binding motifs, 9, 66-82, ELM|di Arginine retention/retrieving signal, 20, 73-76, ELM|NES Nuclear Export Signal, 23, 68-83, ELM;I
+74;-;-;-;-;-;-;-;Actin-binding motifs, 8, 65-82, ELM|Actin-binding motifs, 9, 66-82, ELM|di Arginine retention/retrieving signal, 20, 73-76, ELM|di Arginine retention/retrieving signal, 21, 74-77, ELM|NES Nuclear Export Signal, 23, 68-83, ELM;R;L;cBioPortal;skcm_tcga_pan_can_atlas_2018;Cutaneous Melanoma;hg19,chr1:242161816-242161816;hg19,chr1:242161816C>A;0.403
+75;-;-;-;-;-;-;-;Actin-binding motifs, 8, 65-82, ELM|Actin-binding motifs, 9, 66-82, ELM|di Arginine retention/retrieving signal, 20, 73-76, ELM|di Arginine retention/retrieving signal, 21, 74-77, ELM|NES Nuclear Export Signal, 23, 68-83, ELM;S
+76;-;-;-;-;-;-;-;Actin-binding motifs, 8, 65-82, ELM|Actin-binding motifs, 9, 66-82, ELM|di Arginine retention/retrieving signal, 20, 73-76, ELM|di Arginine retention/retrieving signal, 21, 74-77, ELM|NES Nuclear Export Signal, 23, 68-83, ELM;R;C;cBioPortal,COSMIC;coad_tcga_pan_can_atlas_2018, coadread_dfci_2016, esca_tcga_pan_can_atlas_2018, ucec_tcga, ucec_tcga_pan_can_atlas_2018, ucec_tcga_pub;Colon Adenocarcinoma, Colorectal Adenocarcinoma, Endometrial Carcinoma, Esophageal Adenocarcinoma, carcinoma;hg19,chr1:242159683-242159683, hg38,chr1:241996381-241996381;hg19,chr1:242159683G>A, hg38,chr1:241996381G>A;0.316
+76;-;-;-;-;-;-;-;Actin-binding motifs, 8, 65-82, ELM|Actin-binding motifs, 9, 66-82, ELM|di Arginine retention/retrieving signal, 20, 73-76, ELM|di Arginine retention/retrieving signal, 21, 74-77, ELM|NES Nuclear Export Signal, 23, 68-83, ELM;R;H;cBioPortal,COSMIC;mixed_allen_2018, skcm_broad;Cutaneous Melanoma, Mixed Cancer Types, carcinoma;hg19,chr1:242159682-242159682, hg38,chr1:241996380-241996380;hg19,chr1:242159682C>T, hg38,chr1:241996380C>T;0.330
+76;-;-;-;-;-;-;-;Actin-binding motifs, 8, 65-82, ELM|Actin-binding motifs, 9, 66-82, ELM|di Arginine retention/retrieving signal, 20, 73-76, ELM|di Arginine retention/retrieving signal, 21, 74-77, ELM|NES Nuclear Export Signal, 23, 68-83, ELM;R;L;cBioPortal;luad_tcga_pan_can_atlas_2018, nsclc_tcga_broad_2016;Lung Adenocarcinoma, Non-Small Cell Lung Cancer;hg19,chr1:242159682-242159682;hg19,chr1:242159682C>A;0.410
+77;-;-;-;-;-;-;-;Actin-binding motifs, 8, 65-82, ELM|Actin-binding motifs, 9, 66-82, ELM|di Arginine retention/retrieving signal, 21, 74-77, ELM|NES Nuclear Export Signal, 23, 68-83, ELM;M;I;cBioPortal;mixed_allen_2018;Mixed Cancer Types;hg19,chr1:242159678-242159678;hg19,chr1:242159678C>T;0.092
+78;-;-;-;-;-;-;-;Actin-binding motifs, 8, 65-82, ELM|Actin-binding motifs, 9, 66-82, ELM|NES Nuclear Export Signal, 23, 68-83, ELM;V
+79;-;-;-;-;-;-;-;Actin-binding motifs, 8, 65-82, ELM|Actin-binding motifs, 9, 66-82, ELM|NES Nuclear Export Signal, 23, 68-83, ELM;L
+80;-;-;-;-;-;-;-;14-3-3 binding phosphopeptide motif, 7, 80-88, ELM|Actin-binding motifs, 8, 65-82, ELM|Actin-binding motifs, 9, 66-82, ELM|NES Nuclear Export Signal, 23, 68-83, ELM;R
+81;-;-;-;-;-;-;-;14-3-3 binding phosphopeptide motif, 7, 80-88, ELM|Actin-binding motifs, 8, 65-82, ELM|Actin-binding motifs, 9, 66-82, ELM|NES Nuclear Export Signal, 23, 68-83, ELM;A;T;cBioPortal,COSMIC;ov_tcga, ov_tcga_pan_can_atlas_2018, ov_tcga_pub;carcinoma, ov;hg19,chr1:242159668-242159668, hg38,chr1:241996366-241996366;hg19,chr1:242159668C>T, hg38,chr1:241996366C>T;0.144
+81;-;-;-;-;-;-;-;14-3-3 binding phosphopeptide motif, 7, 80-88, ELM|Actin-binding motifs, 8, 65-82, ELM|Actin-binding motifs, 9, 66-82, ELM|NES Nuclear Export Signal, 23, 68-83, ELM;A;V;cBioPortal;ucec_tcga_pan_can_atlas_2018;Endometrial Carcinoma;hg19,chr1:242159667-242159667;hg19,chr1:242159667G>A;0.201
+82;-;-;-;-;-;-;-;14-3-3 binding phosphopeptide motif, 7, 80-88, ELM|Actin-binding motifs, 8, 65-82, ELM|Actin-binding motifs, 9, 66-82, ELM|Atg8 protein family ligands, 13, 82-88, ELM|NES Nuclear Export Signal, 23, 68-83, ELM;T;M;cBioPortal,COSMIC;ucec_tcga, ucec_tcga_pan_can_atlas_2018, ucec_tcga_pub;Endometrial Carcinoma, carcinoma;hg19,chr1:242159664-242159664, hg38,chr1:241996362-241996362;hg19,chr1:242159664G>A, hg38,chr1:241996362G>A;0.140
+83;-;-;-;-;-;-;-;14-3-3 binding phosphopeptide motif, 7, 80-88, ELM|Atg8 protein family ligands, 13, 82-88, ELM|Atg8 protein family ligands, 14, 83-89, ELM|Endosome-Lysosome-Basolateral sorting signals, 22, 83-88, ELM|NES Nuclear Export Signal, 23, 68-83, ELM;E
+84;-;-;-;-;-;-;-;14-3-3 binding phosphopeptide motif, 7, 80-88, ELM|Atg8 protein family ligands, 13, 82-88, ELM|Atg8 protein family ligands, 14, 83-89, ELM|Endosome-Lysosome-Basolateral sorting signals, 22, 83-88, ELM;A;T;cBioPortal;paad_tcga, paad_tcga_pan_can_atlas_2018;Pancreatic Adenocarcinoma;hg19,chr1:242159659-242159659;hg19,chr1:242159659C>T;0.317
+85;-;-;-;-;-;-;-;14-3-3 binding phosphopeptide motif, 7, 80-88, ELM|Atg8 protein family ligands, 13, 82-88, ELM|Atg8 protein family ligands, 14, 83-89, ELM|Endosome-Lysosome-Basolateral sorting signals, 22, 83-88, ELM;F;L;cBioPortal;ampca_bcm_2016;Ampullary Carcinoma;hg19,chr1:242159656-242159656;hg19,chr1:242159656A>G;0.213
+86;-;-;-;-;-;-;-;14-3-3 binding phosphopeptide motif, 7, 80-88, ELM|Atg8 protein family ligands, 13, 82-88, ELM|Atg8 protein family ligands, 14, 83-89, ELM|SH2 ligand, 16, 86-89, ELM|Y-based sorting signal, 19, 86-89, ELM|Endosome-Lysosome-Basolateral sorting signals, 22, 83-88, ELM;Y
+87;-;-;-;-;-;-;-;14-3-3 binding phosphopeptide motif, 7, 80-88, ELM|Atg8 protein family ligands, 13, 82-88, ELM|Atg8 protein family ligands, 14, 83-89, ELM|SH2 ligand, 16, 86-89, ELM|Y-based sorting signal, 19, 86-89, ELM|Endosome-Lysosome-Basolateral sorting signals, 22, 83-88, ELM;L
+88;-;-;-;-;-;-;-;14-3-3 binding phosphopeptide motif, 7, 80-88, ELM|Atg8 protein family ligands, 13, 82-88, ELM|Atg8 protein family ligands, 14, 83-89, ELM|SH2 ligand, 16, 86-89, ELM|Y-based sorting signal, 19, 86-89, ELM|Endosome-Lysosome-Basolateral sorting signals, 22, 83-88, ELM;L
+89;-;-;-;-;-;-;-;Atg8 protein family ligands, 14, 83-89, ELM|SH2 ligand, 16, 86-89, ELM|Y-based sorting signal, 19, 86-89, ELM;V
+90;-;-;-;-;-;-;-;;N
+91;-;-;-;-;-;-;-;;N
+92;-;-;-;-;-;-;-;;K
+93;-;-;-;-;-;-;-;;S
+94;-;-;-;-;-;-;-;;L
+95;-;-;-;-;-;-;-;;V;D;COSMIC;-;carcinoma;hg38,chr1:241996323-241996323;hg38,chr1:241996323A>T;0.223
+96;-;-;-;-;-;-;-;;S;T;COSMIC;-;carcinoma;hg38,chr1:241996320-241996320;hg38,chr1:241996320C>G;0.229
+97;-;-;-;-;-;-;-;;M;I;cBioPortal;hnsc_tcga, hnsc_tcga_pan_can_atlas_2018;Head and Neck Squamous Cell Carcinoma;hg19,chr1:242159618-242159618;hg19,chr1:242159618C>T;0.149
+98;-;-;-;-;-;-;-;;S;R;COSMIC;-;carcinoma;hg38,chr1:241996313-241996313;hg38,chr1:241996313G>T;0.194
+99;-;-;-;-;-;-;-;;A
+100;-;-;-;-;-;-;-;;T;S;cBioPortal,COSMIC;brca_tcga, brca_tcga_pan_can_atlas_2018, brca_tcga_pub, brca_tcga_pub2015;Invasive Breast Carcinoma, carcinoma;hg19,chr1:242159611-242159611, hg38,chr1:241996309-241996309;hg19,chr1:242159611T>A, hg38,chr1:241996309T>A;0.182
+101;-;-;-;-;-;-;-;;M;I;COSMIC;-;carcinoma;hg38,chr1:241996304-241996304;hg38,chr1:241996304C>A;0.120
+102;-;-;-;-;-;-;-;;A;T;cBioPortal,COSMIC;coad_tcga_pan_can_atlas_2018;Colon Adenocarcinoma, carcinoma;hg19,chr1:242159605-242159605, hg38,chr1:241996303-241996303;hg19,chr1:242159605C>T, hg38,chr1:241996303C>T;0.107
+103;-;-;-;-;-;-;-;;E;K;COSMIC;-;germ_cell_tumour;hg38,chr1:241996300-241996300;hg38,chr1:241996300C>T;0.243
+104;-;-;-;-;-;-;-;;I
+105;-;-;-;-;-;-;-;;Y;C;COSMIC;-;carcinoma;hg38,chr1:241996293-241996293;hg38,chr1:241996293T>C;0.669
+106;-;-;-;-;-;-;-;;R
+107;-;-;-;-;-;-;-;;D;N;cBioPortal,COSMIC;skcm_tcga_pan_can_atlas_2018, skcm_yale;Cutaneous Melanoma, malignant_melanoma;hg19,chr1:242159590-242159590, hg38,chr1:241996288-241996288;hg19,chr1:242159590C>T, hg38,chr1:241996288C>T;0.133
+108;-;-;-;-;-;-;-;;Y;H;cBioPortal,COSMIC;prad_broad, prad_p1000;Prostate Adenocarcinoma, carcinoma;hg19,chr1:242159587-242159587, hg38,chr1:241996285-241996285;hg19,chr1:242159587A>G, hg38,chr1:241996285A>G;0.052
+109;-;-;-;-;-;-;-;;K
+110;-;-;-;-;-;-;-;;D
+111;-;-;-;-;-;-;-;;E;K;cBioPortal;blca_tcga_pan_can_atlas_2018, blca_tcga_pub_2017;Bladder Urothelial Carcinoma;hg19,chr1:242159578-242159578;hg19,chr1:242159578C>T;0.080
+112;-;-;-;-;-;-;-;;D;H;cBioPortal;lihc_amc_prv;lihc;hg19,chr1:242159575-242159575;hg19,chr1:242159575C>G;0.637
+113;-;-;-;-;-;-;-;;G;V;cBioPortal;prad_p1000, prad_tcga, prad_tcga_pan_can_atlas_2018;Prostate Adenocarcinoma;hg19,chr1:242159571-242159571;hg19,chr1:242159571C>A;0.533
+114;-;-;-;-;-;-;-;;F
+115;-;-;-;-;-;-;-;;V;L;cBioPortal;ov_tcga_pan_can_atlas_2018;ov;hg19,chr1:242159566-242159566;hg19,chr1:242159566C>A;0.053
+115;-;-;-;-;-;-;-;;V;M;cBioPortal,COSMIC;stad_tcga, stad_tcga_pan_can_atlas_2018, stad_tcga_pub, stes_tcga_pub;Stomach Adenocarcinoma, carcinoma, stes;hg19,chr1:242159566-242159566, hg38,chr1:241996264-241996264;hg19,chr1:242159566C>T, hg38,chr1:241996264C>T;0.090
+116;-;-;-;-;-;-;-;;Y
+117;-;-;-;-;-;-;-;;M;I;cBioPortal,COSMIC;coadread_dfci_2016, skcm_tcga, skcm_tcga_pan_can_atlas_2018;Colorectal Adenocarcinoma, Cutaneous Melanoma, carcinoma, malignant_melanoma;hg19,chr1:242159558-242159558, hg38,chr1:241996256-241996256;hg19,chr1:242159558C>T, hg38,chr1:241996256C>T;0.139
+117;-;-;-;-;-;-;-;;M;L;cBioPortal;skcm_broad;Cutaneous Melanoma;hg19,chr1:242159560-242159560;hg19,chr1:242159560T>A;0.172
+118;-;-;-;-;-;-;-;;T
+119;-;-;-;-;-;-;-;SH2 ligand, 15, 119-122, ELM;Y;S;cBioPortal;luad_broad, nsclc_tcga_broad_2016;Lung Adenocarcinoma, Non-Small Cell Lung Cancer;hg19,chr1:242159553-242159553;hg19,chr1:242159553T>G;0.435
+120;-;-;-;-;-;-;-;SH2 ligand, 15, 119-122, ELM|TRAF2 binding site, 18, 120-123, ELM;A;T;cBioPortal,COSMIC;prad_p1000;Prostate Adenocarcinoma, carcinoma;hg19,chr1:242159551-242159551, hg38,chr1:241996249-241996249;hg19,chr1:242159551C>T, hg38,chr1:241996249C>T;0.126
+121;-;-;-;-;-;-;-;SH2 ligand, 15, 119-122, ELM|TRAF2 binding site, 18, 120-123, ELM;S;C;cBioPortal;lusc_tcga_pan_can_atlas_2018, nsclc_tcga_broad_2016;Lung Squamous Cell Carcinoma, Non-Small Cell Lung Cancer;hg19,chr1:242159547-242159547;hg19,chr1:242159547G>C;0.449
+121;-;-;-;-;-;-;-;SH2 ligand, 15, 119-122, ELM|TRAF2 binding site, 18, 120-123, ELM;S;F;COSMIC;-;malignant_melanoma;hg38,chr1:241996245-241996245;hg38,chr1:241996245G>A;0.599
+122;-;-;-;-;-;-;-;SH2 ligand, 15, 119-122, ELM|TRAF2 binding site, 18, 120-123, ELM;Q;K;COSMIC;-;other;hg38,chr1:241996243-241996243;hg38,chr1:241996243G>T;0.448
+123;-;-;-;-;-;-;-;Atg8 protein family ligands, 10, 123-128, ELM|TRAF2 binding site, 18, 120-123, ELM;E;D;cBioPortal;prad_p1000, prad_tcga, prad_tcga_pan_can_atlas_2018;Prostate Adenocarcinoma;hg19,chr1:242159540-242159540;hg19,chr1:242159540C>A;0.117
+123;-;-;-;-;-;-;-;Atg8 protein family ligands, 10, 123-128, ELM|TRAF2 binding site, 18, 120-123, ELM;E;K;COSMIC;-;carcinoma;hg38,chr1:241996240-241996240;hg38,chr1:241996240C>T;0.185
+124;-;-;-;-;-;-;-;Atg8 protein family ligands, 10, 123-128, ELM|Atg8 protein family ligands, 11, 124-128, ELM;T;I;cBioPortal;luad_tcga_pan_can_atlas_2018;Lung Adenocarcinoma;hg19,chr1:242159538-242159538;hg19,chr1:242159538G>A;0.143
+125;-;-;-;-;-;-;-;Atg8 protein family ligands, 10, 123-128, ELM|Atg8 protein family ligands, 11, 124-128, ELM;F
+126;-;-;-;-;-;-;-;Atg8 protein family ligands, 10, 123-128, ELM|Atg8 protein family ligands, 11, 124-128, ELM;G
+127;-;-;-;-;-;-;-;Atg8 protein family ligands, 10, 123-128, ELM|Atg8 protein family ligands, 11, 124-128, ELM;C
+128;-;-;-;-;-;-;-;Atg8 protein family ligands, 10, 123-128, ELM|Atg8 protein family ligands, 11, 124-128, ELM;L
+129;-;-;-;-;-;-;-;;E
+130;-;-;-;-;-;-;-;;S;L;cBioPortal,COSMIC;nccrcc_genentech_2014;Renal Non-Clear Cell Carcinoma, carcinoma;hg19,chr1:242159520-242159520, hg38,chr1:241996218-241996218;hg19,chr1:242159520G>A, hg38,chr1:241996218G>A;0.004
+130;-;-;-;-;-;-;-;;S;T;cBioPortal,COSMIC;nccrcc_genentech_2014;Renal Non-Clear Cell Carcinoma, carcinoma;hg19,chr1:242159521-242159521, hg38,chr1:241996219-241996219;hg19,chr1:242159521A>T, hg38,chr1:241996219A>T;0.007
+131;-;-;-;-;-;-;-;;A
+132;-;-;-;-;-;-;-;;A;D;cBioPortal,COSMIC;cscc_hgsc_bcm_2014;Cutaneous Squamous Cell Carcinoma, carcinoma;hg19,chr1:242159514-242159514, hg38,chr1:241996212-241996212;hg19,chr1:242159514G>T, hg38,chr1:241996212G>T;0.169
+133;-;-;-;-;-;-;-;;P
+134;-;-;-;-;-;-;-;;R;W;cBioPortal,COSMIC;lusc_tcga, lusc_tcga_pan_can_atlas_2018, lusc_tcga_pub, nsclc_tcga_broad_2016;Lung Squamous Cell Carcinoma, Non-Small Cell Lung Cancer, carcinoma;hg19,chr1:242159509-242159509, hg38,chr1:241996207-241996207;hg19,chr1:242159509T>A, hg38,chr1:241996207T>A;0.030
+135;-;-;-;-;-;-;-;;D
+136;-;-;-;-;-;-;-;;G
+137;-;-;-;-;-;-;-;;S
+138;-;-;-;-;-;-;-;;S
+139;-;-;-;-;-;-;-;;L
+140;-;-;-;-;-;-;-;SH3 ligand, 17, 140-146, ELM;E
+141;-;-;-;-;-;-;-;SH3 ligand, 17, 140-146, ELM;D;E;cBioPortal;luad_tcga_pan_can_atlas_2018, nsclc_tcga_broad_2016;Lung Adenocarcinoma, Non-Small Cell Lung Cancer;hg19,chr1:242159486-242159486;hg19,chr1:242159486G>T;0.045
+142;-;-;-;-;-;-;-;SH3 ligand, 17, 140-146, ELM;R
+143;-;-;-;-;-;-;-;SH3 ligand, 17, 140-146, ELM;P;H;cBioPortal;thym_tcga_pan_can_atlas_2018;Thymoma;hg19,chr1:242159481-242159481;hg19,chr1:242159481G>T;0.081
+144;-;-;-;-;-;-;-;SH3 ligand, 17, 140-146, ELM;C
+145;-;-;-;-;-;-;-;SH3 ligand, 17, 140-146, ELM;N
+146;-;-;-;-;-;-;-;SH3 ligand, 17, 140-146, ELM;P;L;cBioPortal,COSMIC;cscc_hgsc_bcm_2014;Cutaneous Squamous Cell Carcinoma, carcinoma;hg19,chr1:242159472-242159472, hg38,chr1:241996170-241996170;hg19,chr1:242159472G>A, hg38,chr1:241996170G>A;0.022
+146;-;-;-;-;-;-;-;SH3 ligand, 17, 140-146, ELM;P;T;COSMIC;-;carcinoma;hg38,chr1:241996171-241996171;hg38,chr1:241996171G>T;0.028
+147;-;-;-;-;-;-;-;;L

@@ -1,0 +1,130 @@
+Position;Phosphorylation site;Methylation site;Ubiquitination site;Caspase cleavage site;S-Nitrosylation site;Acetylation site;Sumoylation site;Residue part of a linear motif;WT residue;Mutated residue;Sources;Cancer study;Cancer type;Genomic coordinates;Genomic mutation;Revel score
+1;-;-;-;-;-;-;-;;M
+2;-;-;-;-;-;-;-;;P
+3;-;-;-;-;-;-;-;;S
+4;-;-;-;-;-;-;-;;D
+5;-;-;-;-;-;-;-;PCSK cleavage site, 2, 5-9, ELM;R
+6;-;-;-;-;-;-;-;PCSK cleavage site, 2, 5-9, ELM;P;H;cBioPortal;luad_mskcc_2015;Lung Adenocarcinoma;hg19,chr20:33146689-33146689;hg19,chr20:33146689C>A;0.053
+7;-;-;-;-;-;-;-;PCSK cleavage site, 2, 5-9, ELM;F;I;COSMIC;-;carcinoma;hg38,chr20:34558887-34558887;hg38,chr20:34558887T>A;0.288
+8;-;-;-;-;-;-;-;PCSK cleavage site, 2, 5-9, ELM;K;E;COSMIC;-;carcinoma;hg38,chr20:34558890-34558890;hg38,chr20:34558890A>G;0.292
+9;-;-;-;-;-;-;-;PCSK cleavage site, 2, 5-9, ELM;Q;R;cBioPortal;paad_qcmg_uq_2016;Pancreatic Adenocarcinoma;hg19,chr20:33146698-33146698;hg19,chr20:33146698A>G;0.102
+10;-;-;-;-;-;-;-;NRD cleavage site, 0, 10-12, ELM|14-3-3 binding phosphopeptide motif, 10, 10-14, ELM;R
+11;-;-;-;-;-;-;-;NRD cleavage site, 0, 10-12, ELM|14-3-3 binding phosphopeptide motif, 10, 10-14, ELM;R
+12;P;-;-;-;-;-;-;NRD cleavage site, 0, 10-12, ELM|14-3-3 binding phosphopeptide motif, 10, 10-14, ELM;S
+13;-;-;-;-;-;-;-;14-3-3 binding phosphopeptide motif, 10, 10-14, ELM;F
+14;-;-;-;-;-;-;-;14-3-3 binding phosphopeptide motif, 10, 10-14, ELM;A
+15;-;-;-;-;-;-;-;;D;N;cBioPortal,COSMIC;coadread_dfci_2016;Colorectal Adenocarcinoma, carcinoma;hg19,chr20:33147014-33147014, hg38,chr20:34559210-34559210;hg19,chr20:33147014G>A, hg38,chr20:34559210G>A;0.092
+16;-;-;-;-;-;-;-;;R
+17;-;-;-;-;-;-;-;;C
+18;-;-;-;-;-;-;-;;K
+19;-;-;-;-;-;-;-;;E;K;cBioPortal;mixed_allen_2018;Mixed Cancer Types;hg19,chr20:33147026-33147026;hg19,chr20:33147026G>A;0.348
+20;-;-;-;-;-;-;-;;V
+21;-;-;-;-;-;-;-;;Q
+22;-;-;-;-;-;-;-;;Q
+23;-;-;-;-;-;-;-;;I
+24;-;-;-;-;-;-;-;;R
+25;-;-;-;-;-;-;-;;D
+26;-;-;-;-;-;-;-;;Q
+27;-;-;-;-;-;-;-;;H
+28;-;-;-;-;-;-;-;;P;L;COSMIC;-;other;hg38,chr20:34559250-34559250;hg38,chr20:34559250C>T;0.284
+29;-;-;-;-;-;-;-;;S
+30;-;-;-;-;-;-;-;;K
+31;-;-;-;-;-;-;-;;I
+32;-;-;-;-;-;-;-;;P
+33;-;-;-;-;-;-;-;;V
+34;-;-;-;-;-;-;-;;I
+35;-;-;-;-;-;-;-;;I
+36;-;-;-;-;-;-;-;;E;K;cBioPortal,COSMIC;coad_tcga_pan_can_atlas_2018;Colon Adenocarcinoma, carcinoma;hg19,chr20:33147160-33147160, hg38,chr20:34559356-34559356;hg19,chr20:33147160G>A, hg38,chr20:34559356G>A;0.694
+37;-;-;-;-;-;-;-;MAPK docking motifs, 7, 37-46, ELM;R
+38;-;-;-;-;-;-;-;MAPK docking motifs, 7, 37-46, ELM;Y
+39;-;-;-;-;-;-;-;MAPK docking motifs, 7, 37-46, ELM;K
+40;-;-;-;-;-;-;-;MAPK docking motifs, 7, 37-46, ELM;G
+41;-;-;-;-;-;-;-;MAPK docking motifs, 7, 37-46, ELM;E
+42;-;-;Ubq;-;-;-;-;MAPK docking motifs, 7, 37-46, ELM;K
+43;-;-;-;-;-;-;-;MAPK docking motifs, 7, 37-46, ELM;Q
+44;-;-;-;-;-;-;-;MAPK docking motifs, 7, 37-46, ELM;L
+45;-;-;-;-;-;-;-;MAPK docking motifs, 7, 37-46, ELM;P
+46;-;-;-;-;-;-;-;MAPK docking motifs, 7, 37-46, ELM;V
+47;-;-;-;-;-;-;-;;L;Q;cBioPortal;lihc_tcga, lihc_tcga_pan_can_atlas_2018;lihc;hg19,chr20:33147194-33147194;hg19,chr20:33147194T>A;0.807
+48;-;-;-;-;-;-;-;Cyclin docking motif, 4, 48-56, ELM;D;N;cBioPortal;mixed_allen_2018;Mixed Cancer Types;hg19,chr20:33147196-33147196;hg19,chr20:33147196G>A;0.452
+49;-;-;-;-;-;Ac;-;Cyclin docking motif, 4, 48-56, ELM;K
+50;-;-;-;-;-;-;-;Cyclin docking motif, 4, 48-56, ELM;T;I;cBioPortal;kich_tcga;kich;hg19,chr20:33147203-33147203;hg19,chr20:33147203C>T;0.337
+51;-;-;-;-;-;Ac;-;Cyclin docking motif, 4, 48-56, ELM;K
+52;-;-;-;-;-;-;-;Cyclin docking motif, 4, 48-56, ELM;F
+53;-;-;-;-;-;-;-;Cyclin docking motif, 4, 48-56, ELM;L;S;cBioPortal;ucec_tcga, ucec_tcga_pan_can_atlas_2018, ucec_tcga_pub;Endometrial Carcinoma;hg19,chr20:33147212-33147212;hg19,chr20:33147212T>C;0.828
+54;-;-;-;-;-;-;-;Cyclin docking motif, 4, 48-56, ELM;V
+55;-;-;-;-;-;-;-;Cyclin docking motif, 4, 48-56, ELM;P;S;cBioPortal;skcm_tcga_pan_can_atlas_2018;Cutaneous Melanoma;hg19,chr20:33147217-33147217;hg19,chr20:33147217C>T;0.430
+56;-;-;-;-;-;-;-;Cyclin docking motif, 4, 48-56, ELM;D;A;cBioPortal;luad_tcga_pan_can_atlas_2018;Lung Adenocarcinoma;hg19,chr20:33147221-33147221;hg19,chr20:33147221A>C;0.416
+56;-;-;-;-;-;-;-;Cyclin docking motif, 4, 48-56, ELM;D;H;cBioPortal;luad_tcga_pan_can_atlas_2018, nsclc_tcga_broad_2016;Lung Adenocarcinoma, Non-Small Cell Lung Cancer;hg19,chr20:33147220-33147220;hg19,chr20:33147220G>C;0.367
+57;-;-;-;-;-;-;-;;H
+58;-;-;-;-;-;-;-;;V
+59;-;-;-;-;-;-;-;;N
+60;-;-;-;-;-;-;-;;M
+61;-;-;-;-;-;-;-;;S
+62;-;-;-;-;-;-;-;NES Nuclear Export Signal, 17, 62-77, ELM;E;K;cBioPortal;hnsc_tcga, hnsc_tcga_pan_can_atlas_2018, ucec_tcga_pan_can_atlas_2018;Endometrial Carcinoma, Head and Neck Squamous Cell Carcinoma;hg19,chr20:33147238-33147238;hg19,chr20:33147238G>A;0.470
+63;-;-;-;-;-;-;-;GTPase-binding domain (GBD) ligand, 11, 63-71, ELM|NES Nuclear Export Signal, 17, 62-77, ELM;L
+64;-;-;-;-;-;-;-;GTPase-binding domain (GBD) ligand, 11, 63-71, ELM|NES Nuclear Export Signal, 17, 62-77, ELM;V
+65;-;-;-;-;-;-;-;Cyclin docking motif, 5, 65-76, ELM|MAPK docking motifs, 8, 65-73, ELM|GTPase-binding domain (GBD) ligand, 11, 63-71, ELM|NES Nuclear Export Signal, 17, 62-77, ELM;K
+66;-;-;-;-;-;-;-;Cyclin docking motif, 5, 65-76, ELM|Cyclin docking motif, 6, 66-76, ELM|MAPK docking motifs, 8, 65-73, ELM|GTPase-binding domain (GBD) ligand, 11, 63-71, ELM|NES Nuclear Export Signal, 17, 62-77, ELM;I
+67;-;-;-;-;-;-;-;Cyclin docking motif, 5, 65-76, ELM|Cyclin docking motif, 6, 66-76, ELM|MAPK docking motifs, 8, 65-73, ELM|GTPase-binding domain (GBD) ligand, 11, 63-71, ELM|NES Nuclear Export Signal, 17, 62-77, ELM;I
+68;-;-;-;-;-;-;-;Cyclin docking motif, 5, 65-76, ELM|Cyclin docking motif, 6, 66-76, ELM|MAPK docking motifs, 8, 65-73, ELM|GTPase-binding domain (GBD) ligand, 11, 63-71, ELM|NES Nuclear Export Signal, 17, 62-77, ELM;R
+69;-;-;-;-;-;-;-;NRD cleavage site, 1, 69-71, ELM|Cyclin docking motif, 5, 65-76, ELM|Cyclin docking motif, 6, 66-76, ELM|MAPK docking motifs, 8, 65-73, ELM|GTPase-binding domain (GBD) ligand, 11, 63-71, ELM|NES Nuclear Export Signal, 17, 62-77, ELM;R;H;cBioPortal,COSMIC;cesc_tcga, cesc_tcga_pan_can_atlas_2018, paad_qcmg_uq_2016;Cervical Squamous Cell Carcinoma, Pancreatic Adenocarcinoma, carcinoma;hg19,chr20:33147542-33147542, hg38,chr20:34559738-34559738;hg19,chr20:33147542G>A, hg38,chr20:34559738G>A;0.409
+70;-;-;-;-;-;-;-;NRD cleavage site, 1, 69-71, ELM|Cyclin docking motif, 5, 65-76, ELM|Cyclin docking motif, 6, 66-76, ELM|MAPK docking motifs, 8, 65-73, ELM|GTPase-binding domain (GBD) ligand, 11, 63-71, ELM|NES Nuclear Export Signal, 17, 62-77, ELM;R;C;cBioPortal;blca_tcga_pan_can_atlas_2018, blca_tcga_pub_2017, hnsc_broad;Bladder Urothelial Carcinoma, Head and Neck Squamous Cell Carcinoma;hg19,chr20:33147544-33147544;hg19,chr20:33147544C>T;0.404
+70;-;-;-;-;-;-;-;NRD cleavage site, 1, 69-71, ELM|Cyclin docking motif, 5, 65-76, ELM|Cyclin docking motif, 6, 66-76, ELM|MAPK docking motifs, 8, 65-73, ELM|GTPase-binding domain (GBD) ligand, 11, 63-71, ELM|NES Nuclear Export Signal, 17, 62-77, ELM;R;H;cBioPortal,COSMIC;paad_tcga, paad_tcga_pan_can_atlas_2018, stad_tcga, stad_tcga_pan_can_atlas_2018, stad_tcga_pub, stes_tcga_pub;Pancreatic Adenocarcinoma, Stomach Adenocarcinoma, carcinoma, stes;hg19,chr20:33147545-33147545, hg38,chr20:34559741-34559741;hg19,chr20:33147545G>A, hg38,chr20:34559741G>A;0.506
+71;-;-;-;-;-;-;-;NRD cleavage site, 1, 69-71, ELM|Cyclin docking motif, 5, 65-76, ELM|Cyclin docking motif, 6, 66-76, ELM|MAPK docking motifs, 8, 65-73, ELM|GTPase-binding domain (GBD) ligand, 11, 63-71, ELM|NES Nuclear Export Signal, 17, 62-77, ELM;L
+72;-;-;-;-;-;-;-;Cyclin docking motif, 5, 65-76, ELM|Cyclin docking motif, 6, 66-76, ELM|MAPK docking motifs, 8, 65-73, ELM|NES Nuclear Export Signal, 17, 62-77, ELM;Q
+73;-;-;-;-;-;-;-;Cyclin docking motif, 5, 65-76, ELM|Cyclin docking motif, 6, 66-76, ELM|MAPK docking motifs, 8, 65-73, ELM|NES Nuclear Export Signal, 17, 62-77, ELM;L
+74;-;-;-;-;-;-;-;Cyclin docking motif, 5, 65-76, ELM|Cyclin docking motif, 6, 66-76, ELM|NES Nuclear Export Signal, 17, 62-77, ELM;N
+75;-;-;-;-;-;-;-;Cyclin docking motif, 5, 65-76, ELM|Cyclin docking motif, 6, 66-76, ELM|NES Nuclear Export Signal, 17, 62-77, ELM;P
+76;-;-;-;-;-;-;-;Cyclin docking motif, 5, 65-76, ELM|Cyclin docking motif, 6, 66-76, ELM|Atg8 protein family ligands, 12, 76-82, ELM|NES Nuclear Export Signal, 17, 62-77, ELM;T;M;cBioPortal,COSMIC;coad_tcga_pan_can_atlas_2018;Colon Adenocarcinoma, carcinoma;hg19,chr20:33147563-33147563, hg38,chr20:34559759-34559759;hg19,chr20:33147563C>T, hg38,chr20:34559759C>T;0.193
+77;-;-;-;-;-;-;-;Atg8 protein family ligands, 12, 76-82, ELM|NES Nuclear Export Signal, 17, 62-77, ELM;Q
+78;-;-;-;-;-;-;-;Atg8 protein family ligands, 12, 76-82, ELM;A
+79;-;-;-;-;-;-;-;Atg8 protein family ligands, 12, 76-82, ELM;F
+80;-;-;-;-;-;-;-;Atg8 protein family ligands, 12, 76-82, ELM;F
+81;-;-;-;-;-;-;-;Atg8 protein family ligands, 12, 76-82, ELM;L
+82;-;-;-;-;-;-;-;Atg8 protein family ligands, 12, 76-82, ELM;L;M;cBioPortal,COSMIC;blca_tcga, blca_tcga_pan_can_atlas_2018, blca_tcga_pub, blca_tcga_pub_2017;Bladder Urothelial Carcinoma, carcinoma;hg19,chr20:33147580-33147580, hg38,chr20:34559776-34559776;hg19,chr20:33147580C>A, hg38,chr20:34559776C>A;0.265
+82;-;-;-;-;-;-;-;Atg8 protein family ligands, 12, 76-82, ELM;L;P;cBioPortal,COSMIC;skcm_tcga, skcm_tcga_pan_can_atlas_2018;Cutaneous Melanoma, malignant_melanoma;hg19,chr20:33147581-33147581, hg38,chr20:34559777-34559777;hg19,chr20:33147581T>C, hg38,chr20:34559777T>C;0.840
+82;-;-;-;-;-;-;-;Atg8 protein family ligands, 12, 76-82, ELM;L;V;COSMIC;-;NS;hg38,chr20:34559776-34559776;hg38,chr20:34559776C>G;0.202
+83;-;-;-;-;-;-;-;;V
+84;-;-;-;-;-;-;-;;N
+85;-;-;-;-;-;-;-;;Q
+86;-;-;-;-;-;-;-;;H
+87;-;-;-;-;-;-;-;;S
+88;-;-;-;-;-;-;-;SH3 ligand, 15, 88-94, ELM;M
+89;-;-;-;-;-;-;-;SH3 ligand, 15, 88-94, ELM;V
+90;-;-;-;-;-;-;-;WW domain ligands, 9, 90-95, ELM|SH3 ligand, 15, 88-94, ELM;S
+91;-;-;-;-;-;-;-;Cks1 ligand, 3, 91-96, ELM|WW domain ligands, 9, 90-95, ELM|SH3 ligand, 15, 88-94, ELM;V
+92;P;-;-;-;-;-;-;Cks1 ligand, 3, 91-96, ELM|WW domain ligands, 9, 90-95, ELM|SH3 ligand, 15, 88-94, ELM;S
+93;-;-;-;-;-;-;-;Cks1 ligand, 3, 91-96, ELM|WW domain ligands, 9, 90-95, ELM|SH3 ligand, 15, 88-94, ELM;T
+94;-;-;-;-;-;-;-;Cks1 ligand, 3, 91-96, ELM|WW domain ligands, 9, 90-95, ELM|SH3 ligand, 15, 88-94, ELM;P
+95;-;-;-;-;-;-;-;Cks1 ligand, 3, 91-96, ELM|WW domain ligands, 9, 90-95, ELM;I
+96;-;-;-;-;-;-;-;Cks1 ligand, 3, 91-96, ELM;A;T;cBioPortal;coadread_genentech;Colorectal Adenocarcinoma;hg19,chr20:33147622-33147622;hg19,chr20:33147622G>A;0.135
+96;-;-;-;-;-;-;-;Cks1 ligand, 3, 91-96, ELM;A;V;cBioPortal,COSMIC;coad_tcga_pan_can_atlas_2018;Colon Adenocarcinoma, carcinoma;hg19,chr20:33147623-33147623, hg38,chr20:34559819-34559819;hg19,chr20:33147623C>T, hg38,chr20:34559819C>T;0.178
+97;-;-;-;-;-;-;-;;D
+98;-;-;-;-;-;-;-;;I;M;cBioPortal;blca_tcga_pan_can_atlas_2018, blca_tcga_pub_2017;Bladder Urothelial Carcinoma;hg19,chr20:33147630-33147630;hg19,chr20:33147630C>G;0.303
+99;-;-;-;-;-;-;-;;Y
+100;-;-;-;-;-;-;-;;E
+101;-;-;-;-;-;-;-;;Q
+102;-;-;-;-;-;-;-;;E
+103;-;-;-;-;-;-;-;;K
+104;-;-;-;-;-;-;-;;D
+105;-;-;-;-;-;-;-;;E
+106;-;-;-;-;-;-;-;;D
+107;-;-;-;-;-;-;-;;G;D;cBioPortal,COSMIC;coadread_dfci_2016;Colorectal Adenocarcinoma, carcinoma;hg19,chr20:33147656-33147656, hg38,chr20:34559852-34559852;hg19,chr20:33147656G>A, hg38,chr20:34559852G>A;0.746
+107;-;-;-;-;-;-;-;;G;S;cBioPortal;lgg_tcga_pan_can_atlas_2018;lgg;hg19,chr20:33147655-33147655;hg19,chr20:33147655G>A;0.677
+108;-;-;-;-;-;-;-;;F;L;cBioPortal;kich_tcga;kich;hg19,chr20:33147658-33147658;hg19,chr20:33147658T>C;0.496
+109;-;-;-;-;-;-;-;;L
+110;-;-;-;-;-;-;-;;Y
+111;-;-;-;-;-;-;-;;M
+112;-;-;-;-;-;-;-;;V;I;COSMIC;-;carcinoma;hg38,chr20:34559866-34559866;hg38,chr20:34559866G>A;0.273
+113;-;-;-;-;-;-;-;SH2 ligand, 14, 113-116, ELM;Y
+114;-;-;-;-;-;-;-;SH2 ligand, 14, 113-116, ELM|TRAF2 binding site, 16, 114-117, ELM;A
+115;-;-;-;-;-;-;-;SH2 ligand, 14, 113-116, ELM|TRAF2 binding site, 16, 114-117, ELM;S
+116;-;-;-;-;-;-;-;PDZ ligands, 13, 116-121, ELM|SH2 ligand, 14, 113-116, ELM|TRAF2 binding site, 16, 114-117, ELM;Q;K;cBioPortal;hnsc_tcga_pan_can_atlas_2018, skcm_tcga_pan_can_atlas_2018;Cutaneous Melanoma, Head and Neck Squamous Cell Carcinoma;hg19,chr20:33147682-33147682;hg19,chr20:33147682C>A;0.582
+116;-;-;-;-;-;-;-;PDZ ligands, 13, 116-121, ELM|SH2 ligand, 14, 113-116, ELM|TRAF2 binding site, 16, 114-117, ELM;Q;R;cBioPortal,COSMIC;coadread_dfci_2016;Colorectal Adenocarcinoma, carcinoma;hg19,chr20:33147683-33147683, hg38,chr20:34559879-34559879;hg19,chr20:33147683A>G, hg38,chr20:34559879A>G;0.717
+117;-;-;-;-;-;-;-;PDZ ligands, 13, 116-121, ELM|TRAF2 binding site, 16, 114-117, ELM;E
+118;-;-;-;-;-;-;-;PDZ ligands, 13, 116-121, ELM;T
+119;-;-;-;-;-;-;-;PDZ ligands, 13, 116-121, ELM;F;L;cBioPortal;ucec_tcga_pan_can_atlas_2018;Endometrial Carcinoma;hg19,chr20:33147691-33147691;hg19,chr20:33147691T>C;0.794
+120;-;-;-;-;-;-;-;PDZ ligands, 13, 116-121, ELM;G;D;cBioPortal;ucec_tcga_pan_can_atlas_2018;Endometrial Carcinoma;hg19,chr20:33147695-33147695;hg19,chr20:33147695G>A;0.808
+120;-;-;-;-;-;-;-;PDZ ligands, 13, 116-121, ELM;G;S;cBioPortal,COSMIC;coadread_dfci_2016;Colorectal Adenocarcinoma, carcinoma;hg19,chr20:33147694-33147694, hg38,chr20:34559890-34559890;hg19,chr20:33147694G>A, hg38,chr20:34559890G>A;0.790
+121;-;-;-;-;-;-;-;PDZ ligands, 13, 116-121, ELM;F

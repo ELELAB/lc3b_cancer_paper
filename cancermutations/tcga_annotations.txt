@@ -1,0 +1,29 @@
+PIP15-18739-T1	D19Y		Primary disease	
+TCGA-ER-A19P-06	R21G		Metastatic	Percentile: 45.55
+TCGA-BS-A0UV-01	R21Q		Primary		Percentile: 81.21
+MM18T	R21Q
+TCGA-D3-A5GU-06 P28L				Percentile: 61.85		
+XHDG32	T29A		stageIIIA
+TCGA-66-2787-01	P32Q	Primary?		Percentile: 30.9
+MM-0390	I35V
+TCGA-AX-A1CE-01	R37Q	#same mutation also in MAP1LC3B2	Percentile: 90.51
+TCGA-44-A47A-01 R37Q	Percentile: 36.86
+TCGA-D1-A103-01	Y38H	Primary	Percentile: 55.6
+TCGA-AZ-6598-01 K39R	Percentile: 58.9
+MEL-IPI_Pat139-Tumor-SM-5VWJH	K49N	
+06-134H1_LN	D56N	Metastatis Percentile: 99.42
+TCGA-VQ-A8P2-01	D56N	Primary	Percentile: 71.81
+TCGA-ZF-A9RC-01	M60I	Primary	Percentile: 3.68
+587338	K65E	
+TCGA-AX-A2HD-01	R70C	Primary	Percentile: 3.8
+TCGA-60-2710-01	V89F	#same mutations also in MAP1LC3B2	
+H110061	V98A	histological_gradeII
+TCGA-KO-8417-01	Y113C	Primary	Percentile: 25.76
+AdCC6T	Y113C	Primary	
+GC_307T-GC_307N	G120R	stage IB
+GC_307T-GC_307N	L123S	stage II
+TCGA-EO-A22U-01	L123V	#same mutation also in MAP1LC3B2	Percentile: 83.49
+
+
+	
+

@@ -1,0 +1,88 @@
+,uniprot1,symbol1,uniprot2,symbol2,methods,pmids
+1,Q8NC44,RETREG2,Q9GZQ8,MAP1LC3B,pull down, two hybrid,21900206, 26040720
+2,P78559,MAP1A,Q9GZQ8,MAP1LC3B,affinity chromatography technology, anti tag coimmunoprecipitation,18083104, 20562859
+3,P10244,MYBL2,Q9GZQ8,MAP1LC3B,two hybrid,21900206
+4,Q8IZQ1,WDFY3,Q9GZQ8,MAP1LC3B,anti bait coimmunoprecipitation, anti tag coimmunoprecipitation, fluorescence microscopy, pull down,18083104, 20417604, 24668264, 25402006
+5,P19474,TRIM21,Q9GZQ8,MAP1LC3B,anti tag coimmunoprecipitation, pull down,20562859, 26347139
+6,P35611,ADD1,Q9GZQ8,MAP1LC3B,two hybrid,21900206
+7,Q9BT49,THAP7,Q9GZQ8,MAP1LC3B,two hybrid,21900206
+8,Q9GZQ8,MAP1LC3B,Q9UHC7,MKRN1,two hybrid,21900206
+9,Q9GZQ8,MAP1LC3B,Q9NYL9,TMOD3,two hybrid,21900206
+10,Q03135,CAV1,Q9GZQ8,MAP1LC3B,anti bait coimmunoprecipitation,20956295
+11,Q9GZQ8,MAP1LC3B,Q9H1Y0,ATG5,affinity chromatography technology, anti tag coimmunoprecipitation, pull down,20562859, 23023127, 25402006
+12,P47736,RAP1GAP,Q9GZQ8,MAP1LC3B,two hybrid,21900206
+13,Q9GZQ8,MAP1LC3B,Q9Y383,LUC7L2,anti tag coimmunoprecipitation, two hybrid, two hybrid pooling approach, yeast 2-hybrid,16169070, 20562859, 21900206
+14,Q9BSB4,ATG101,Q9GZQ8,MAP1LC3B,pull down,24290141
+15,Q9GZQ8,MAP1LC3B,Q9Y605,MRFAP1,two hybrid,21900206
+16,P41743,PRKCI,Q9GZQ8,MAP1LC3B,affinity chromatography technology, anti tag coimmunoprecipitation,20562859, 25402006
+17,O75143,ATG13,Q9GZQ8,MAP1LC3B,affinity chromatography technology, pull down, surface plasmon resonance,20562859, 23043107, 24290141
+18,P20700,LMNB1,Q9GZQ8,MAP1LC3B,anti bait coimmunoprecipitation, anti tag coimmunoprecipitation, bimolecular fluorescence complementation, pull down,26524528
+19,Q9GZQ8,MAP1LC3B,Q9H492,MAP1LC3A,affinity chromatography technology, anti tag coimmunoprecipitation,20562859, 23023127, 25402006
+20,Q676U5,ATG16L1,Q9GZQ8,MAP1LC3B,affinity chromatography technology, anti tag coimmunoprecipitation, pull down,20562859, 23023127, 25402006
+21,Q86V97,KBTBD6,Q9GZQ8,MAP1LC3B,affinity chromatography technology, pull down, unspecified method, x-ray crystallography,20562859, 25684205
+22,O60271,SPAG9,Q9GZQ8,MAP1LC3B,two hybrid,21900206
+23,O60671,RAD1,Q9GZQ8,MAP1LC3B,two hybrid, two hybrid pooling approach,16169070
+24,Q9GZQ8,MAP1LC3B,Q9UPN4,CEP131,tandem affinity purification,24089205
+25,P35222,CTNNB1,Q9GZQ8,MAP1LC3B,anti bait coimmunoprecipitation, pull down,23736261
+26,Q16643,DBN1,Q9GZQ8,MAP1LC3B,two hybrid,21900206
+27,Q96EB6,SIRT1,Q9GZQ8,MAP1LC3B,anti tag coimmunoprecipitation, deacetylase assay,18296641, 25402006
+28,P09496,CLTA,Q9GZQ8,MAP1LC3B,two hybrid,21900206
+29,P22681,CBL,Q9GZQ8,MAP1LC3B,pull down,22138575
+30,Q13043,STK4,Q9GZQ8,MAP1LC3B,affinity chromatography technology, anti tag coimmunoprecipitation, pull down,20562859, 25402006
+31,O75530,EED,Q9GZQ8,MAP1LC3B,two hybrid,21900206
+32,Q15424,SAFB,Q9GZQ8,MAP1LC3B,anti tag coimmunoprecipitation, two hybrid,20562859, 21900206, 25402006
+33,Q13188,STK3,Q9GZQ8,MAP1LC3B,affinity chromatography technology, anti tag coimmunoprecipitation, pull down,20562859, 25402006
+34,Q8WWW0,RASSF5,Q9GZQ8,MAP1LC3B,affinity chromatography technology, anti tag coimmunoprecipitation, pull down,20562859, 25402006
+35,P55084,HADHB,Q9GZQ8,MAP1LC3B,affinity chromatography technology, anti tag coimmunoprecipitation,20562859, 25402006
+36,Q96PQ7,KLHL5,Q9GZQ8,MAP1LC3B,two hybrid,21900206
+37,Q14790,CASP8,Q9GZQ8,MAP1LC3B,two hybrid,21900206
+38,Q14185,DOCK1,Q9GZQ8,MAP1LC3B,affinity chromatography technology, anti tag coimmunoprecipitation,20562859
+39,O75665,OFD1,Q9GZQ8,MAP1LC3B,anti bait coimmunoprecipitation, tandem affinity purification,24089205
+40,O95352,ATG7,Q9GZQ8,MAP1LC3B,affinity chromatography technology, anti tag coimmunoprecipitation, comigration in non denaturing gel electrophoresis, pull down,11890701, 15355958, 16303767, 18083104, 20562859, 21836163, 23023127, 24023838, 25402006
+41,Q9GZQ8,MAP1LC3B,Q9UIL1,SCOC,fluorescence microscopy,22354037
+42,P60896,SEM1,Q9GZQ8,MAP1LC3B,two hybrid,21900206
+43,P05386,RPLP1,Q9GZQ8,MAP1LC3B,anti tag coimmunoprecipitation, two hybrid,20562859, 21900206
+44,P55769,SNU13,Q9GZQ8,MAP1LC3B,two hybrid, two hybrid array,21988832
+45,Q13685,AAMP,Q9GZQ8,MAP1LC3B,two hybrid,21900206
+46,Q86VR2,RETREG3,Q9GZQ8,MAP1LC3B,pull down,26040720
+47,Q14145,KEAP1,Q9GZQ8,MAP1LC3B,affinity chromatography technology, anti tag coimmunoprecipitation, tandem affinity purification,20562859, 24089205, 25402006
+48,O95166,GABARAP,Q9GZQ8,MAP1LC3B,affinity chromatography technology, anti tag coimmunoprecipitation, fluorescence microscopy,20562859, 23023127, 24668264, 25402006
+49,Q8N6T3,ARFGAP1,Q9GZQ8,MAP1LC3B,two hybrid,21900206
+50,Q9GZQ8,MAP1LC3B,Q9Y4P1,ATG4B,affinity chromatography technology, anti tag coimmunoprecipitation, enzymatic study, nuclear magnetic resonance, protease assay, pull down, two hybrid, two hybrid pooling approach, x-ray crystallography, yeast 2-hybrid,15355958, 16169070, 18083104, 19322194, 19549685, 20010802, 20562859, 21900206, 23023127, 24023838, 25402006
+51,Q9GZQ8,MAP1LC3B,Q9UBC3,DNMT3B,two hybrid,21900206
+52,Q8WVZ9,KBTBD7,Q9GZQ8,MAP1LC3B,affinity chromatography technology, pull down, two hybrid, two hybrid pooling approach, unspecified method, yeast 2-hybrid,16169070, 20562859, 21900206, 25684205
+53,Q9BPW8,NIPSNAP1,Q9GZQ8,MAP1LC3B,affinity chromatography technology, anti tag coimmunoprecipitation,20562859
+54,Q9BXM7,PINK1,Q9GZQ8,MAP1LC3B,anti bait coimmunoprecipitation, anti tag coimmunoprecipitation, fluorescence microscopy,20153330
+55,Q6ZS17,RIPOR1,Q9GZQ8,MAP1LC3B,two hybrid,21900206
+56,P60520,GABARAPL2,Q9GZQ8,MAP1LC3B,anti tag coimmunoprecipitation, pull down,20562859, 23023127, 24582747, 25402006
+57,Q9GZQ8,MAP1LC3B,Q9H8Y8,GORASP2,two hybrid, two hybrid array, two hybrid prey pooling approach, validated two hybrid,25416956
+58,P46934,NEDD4,Q9GZQ8,MAP1LC3B,affinity chromatography technology, pull down, x-ray crystallography,20562859, 28085563, 28470758
+59,Q15154,PCM1,Q9GZQ8,MAP1LC3B,tandem affinity purification,24089205
+60,Q8WYN0,ATG4A,Q9GZQ8,MAP1LC3B,two hybrid,20010802, 23023127, 25402006
+61,Q9GZQ8,MAP1LC3B,Q9NX00,TMEM160,affinity chromatography technology, anti tag coimmunoprecipitation,20562859
+62,Q15025,TNIP1,Q9GZQ8,MAP1LC3B,two hybrid, two hybrid array, two hybrid prey pooling approach, validated two hybrid,25416956
+63,P25445,FAS,Q9GZQ8,MAP1LC3B,anti bait coimmunoprecipitation,20956295
+64,Q12824,SMARCB1,Q9GZQ8,MAP1LC3B,two hybrid,21900206
+65,Q8TDY2,RB1CC1,Q9GZQ8,MAP1LC3B,pull down,24290141
+66,Q8NCE2,MTMR14,Q9GZQ8,MAP1LC3B,fluorescence microscopy,19590496
+67,Q96CV9,OPTN,Q9GZQ8,MAP1LC3B,affinity chromatography technology, imaging technique, pull down, unspecified method, x-ray crystallography,21617041, 23805866, 25026213
+68,Q14596,NBR1,Q9GZQ8,MAP1LC3B,affinity chromatography technology, confocal microscopy, pull down,19250911, 20562859, 23022382, 23023127, 24879152, 25402006
+69,O75323,NIPSNAP2,Q9GZQ8,MAP1LC3B,affinity chromatography technology, anti tag coimmunoprecipitation, pull down,20562859, 25402006
+70,Q9BQD3,KXD1,Q9GZQ8,MAP1LC3B,two hybrid, two hybrid array, two hybrid pooling approach, two hybrid prey pooling approach, validated two hybrid,16189514, 25416956
+71,Q9BQS8,FYCO1,Q9GZQ8,MAP1LC3B,affinity chromatography technology, anti tag coimmunoprecipitation, pull down, tandem affinity purification, unspecified method,20100911, 20562859, 23043107, 24089205, 25402006
+72,Q9GZQ8,MAP1LC3B,Q9H6L5,RETREG1,pull down,26040720
+73,Q9GZQ8,MAP1LC3B,Q9HAU5,UPF2,two hybrid, yeast 2-hybrid,15231747
+74,P07108,DBI,Q9GZQ8,MAP1LC3B,two hybrid,21900206
+75,Q9GZQ8,MAP1LC3B,Q9NT62,ATG3,affinity chromatography technology, anti tag coimmunoprecipitation, comigration in non denaturing gel electrophoresis, pull down,15355958, 16303767, 18083104, 20562859, 23023127, 24023838, 25402006
+76,O75385,ULK1,Q9GZQ8,MAP1LC3B,affinity chromatography technology, pull down,20562859, 23043107, 24290141
+77,Q12929,EPS8,Q9GZQ8,MAP1LC3B,two hybrid,21900206
+78,Q8IVP5,FUNDC1,Q9GZQ8,MAP1LC3B,anti bait coimmunoprecipitation, anti tag coimmunoprecipitation, bimolecular fluorescence complementation, fluorescence microscopy, two hybrid, two hybrid array, two hybrid prey pooling approach, validated two hybrid,20562859, 24671035, 25416956
+79,Q15059,BRD3,Q9GZQ8,MAP1LC3B,two hybrid,21900206
+80,Q9GZQ8,MAP1LC3B,Q9H2P0,ADNP,two hybrid,21900206
+81,Q14677,CLINT1,Q9GZQ8,MAP1LC3B,affinity chromatography technology, anti tag coimmunoprecipitation, pull down,20562859, 25402006
+82,Q13501,SQSTM1,Q9GZQ8,MAP1LC3B,affinity chromatography technology, anti bait coimmunoprecipitation, anti tag coimmunoprecipitation, gst pull down, imaging technique, isothermal titration calorimetry, pull down, tandem affinity purification, two hybrid, two hybrid pooling approach, x-ray crystallography, yeast 2-hybrid,16169070, 17580304, 18083104, 19250911, 20010802, 20452972, 20562859, 21900206, 22434781, 23022382, 23023127, 23333919, 24023838, 24089205, 24582747, 24668264, 25007327, 25402006, 25416956, 26413874, 26524528, 28085563
+83,Q15545,TAF7,Q9GZQ8,MAP1LC3B,two hybrid,21900206
+84,Q9GZQ8,MAP1LC3B,Q9H7U1,CCSER2,two hybrid,21900206
+85,P46821,MAP1B,Q9GZQ8,MAP1LC3B,affinity chromatography technology, anti tag coimmunoprecipitation, tandem affinity purification,17580304, 18083104, 20562859, 24089205, 25402006
+86,P40939,HADHA,Q9GZQ8,MAP1LC3B,affinity chromatography technology, anti tag coimmunoprecipitation, pull down,20562859, 25402006
+87,Q14203,DCTN1,Q9GZQ8,MAP1LC3B,bioid, proximity-dependent biotin identification,26638075

@@ -1,0 +1,12 @@
+WARNING: Some mutations were discarded because the wild-type residue didn't match:
+
+19/10/2018,10:07 WARNING [cancermuts.cBioPortal]> for mutation R4S, residue R is D in wild-type sequence; it will be skipped
+19/10/2018,10:07 WARNING [cancermuts.cBioPortal]> for mutation G11E, residue G is R in wild-type sequence; it will be skipped
+19/10/2018,10:07 WARNING [cancermuts.cBioPortal]> for mutation S8Y, residue S is K in wild-type sequence; it will be skipped
+19/10/2018,10:07 WARNING [cancermuts.cBioPortal]> for mutation D60H, residue D is M in wild-type sequence; it will be skipped
+19/10/2018,10:07 WARNING [cancermuts.cBioPortal]> for mutation F5L, residue F is R in wild-type sequence; it will be skipped
+19/10/2018,10:07 WARNING [cancermuts.cBioPortal]> for mutation K12R, residue K is S in wild-type sequence; it will be skipped
+19/10/2018,10:07 WARNING [cancermuts.cBioPortal]> for mutation G44S, residue G is L in wild-type sequence; it will be skipped
+19/10/2018,10:07 WARNING [cancermuts.cBioPortal]> for mutation M3I, residue M is S in wild-type sequence; it will be skipped
+
+the discarded mutations do match isoform 2 from Uniprot.
