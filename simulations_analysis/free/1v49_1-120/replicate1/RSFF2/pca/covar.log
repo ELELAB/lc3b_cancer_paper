@@ -1,0 +1,20 @@
+Covariance analysis log, written Tue Aug 11 14:18:02 2020
+
+Program: covar
+Working directory: /data/user/shared_projects/lc3b_md_paper/simulations_analysis/lc3b/free/1v49_1-120/replicate1/RSFF2/pca
+
+Read 100001 frames from ../filt_trjs/noCNter.xtc (time 0 to 1e+06 ps)
+Read reference structure for fit from ../filt_tprs/noCNter.tpr
+
+Analysis group is 'C-alpha' (110 atoms)
+Fit group is 'C-alpha' (110 atoms)
+Analysis is non-mass weighted
+Fit is non-mass weighted
+Diagonalized the 330x330 covariance matrix
+Trace of the covariance matrix before diagonalizing: 1.54892
+Trace of the covariance matrix after diagonalizing: 1.54892
+
+Wrote 330 eigenvalues to eigenval.xvg
+Wrote reference structure to eigenvec.trr
+Wrote average structure to average.pdb and eigenvec.trr
+Wrote eigenvectors 1 to 330 to eigenvec.trr
