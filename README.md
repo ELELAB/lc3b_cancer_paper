@@ -12,6 +12,8 @@ The the MD trajectories, mutatex and rosetta scans  have been deposited in OSF d
 
 https://osf.io/4zxym/
 
+In simulations_analysis folders with filtered tpr or xtc files do not contain the outputs due to space limitation. Everything is reproducible through the scripts.
+
 A more detailed README file is in each subfolder
 
 
