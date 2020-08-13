@@ -19,7 +19,9 @@ A more detailed README file is in each subfolder
 
 1. pdbs/ -> preprocessing and cleaning steps for the PDB files
 2. simulations_analysis -> all the analyses done on free and membrane-bound simulations
-
+3. cancermutations -> aggregated analyses of mutations of LC3B/A/C and GABARAP found in cancer samples
+4. coevolution -> all the analyses done with gremlin webserver
+5. mutatex -> foldx scans a saturation for free protein or complexes
 
 
 

@@ -1,0 +1,212 @@
+#!/usr/bin/env python
+
+#    ddg2matrix: plot DDG MutateX results as heat maps.
+#    Copyright (C) 2015, Matteo Tiberti <matteo.tiberti@gmail.com> 
+#                        Thilde Bagger Terkelsen <ThildeBT@gmail.com>
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+import matplotlib
+matplotlib.use('Agg')
+from matplotlib import pyplot as plt
+import argparse
+from scipy.stats.kde import gaussian_kde
+from six import iteritems
+import logging as log
+import numpy as np
+from Bio import PDB
+
+#Add extra ptm residues to PDB.Polypeptide three to one module 
+ptm_residues = {"y": "PTR",
+                "p": "TPO",
+                "s": "SEP",
+                "h": "HYP",
+                "z": "TYS",
+                "k": "MLZ",
+                "m": "MLY",
+                "l": "M3L",
+                "o": "H1S",
+                "e": "H2S",
+                "f": "H3S"}
+len_three2one = len(PDB.Polypeptide.d1_to_index)
+idx=len_three2one
+for k,v in iteritems(ptm_residues):
+    PDB.Polypeptide.d1_to_index[k] = idx
+    PDB.Polypeptide.dindex_to_1[idx] = k
+    
+    PDB.Polypeptide.d3_to_index[v] = idx
+    PDB.Polypeptide.dindex_to_3[idx] = v
+    idx += 1
+
+def parse_ddg_file(fname, reslist):
+    fh = open(fname, 'r')
+    
+    ddgs = []
+    for line in fh:
+        if line and not line.startswith("#"):
+            ddgs.append(float(line.split()[0]))
+
+    if len(ddgs) != len(reslist):
+        log.error("file %s has %d values, with %d required. Exiting..." % (fname, len(ddgs), len(reslist)))
+        exit(1)
+    return ddgs
+
+def parse_list_file(fname):
+    fh = open(fname, 'r')
+
+    restypes = []
+    
+    for line in fh:
+        if line and not line.startswith("#"):
+            restypes.append(line.strip()[0])
+    fh.close()
+    
+    return restypes
+
+def get_residue_list(structure, multimers=True):
+
+    models = structure.get_list()
+
+    if len(models) > 1:
+        log.warning("%d models are present in the input PDB file; only the first will be used." % len(models))
+    if len(models) < 1:
+        log.error("The input PDB file does not contain any model. Exiting ...")
+        exit(1)
+
+    model = models[0]
+
+    residue_list = []
+    sequences = {}
+
+    for chain in model:
+        chain_name = chain.get_id()
+        sequences[chain_name] = ''
+        for residue in chain:
+            try:
+                res_code = PDB.Polypeptide.three_to_one(residue.get_resname())
+            except:
+                log.warning("Residue %s in file %s couldn't be recognized; it will be skipped" %(residue, options.in_pdb))
+                continue
+            if not multimers:
+                residue_list.append(("%s%s%d") % (res_code, chain.get_id(), residue.get_id()[1]))
+            else:
+                sequences[chain_name] += res_code
+
+    if options.multimers:
+        collated_chains = []
+        seq_ids, seqs = list(zip(*list(iteritems(sequences))))
+        seq_ids = np.array(seq_ids)
+        unique_seqs, unique_idxs = np.unique(seqs, return_inverse=True)
+
+        for i in np.unique(unique_idxs):
+            collated_chains.append(seq_ids[unique_idxs == i])
+
+        for cg in collated_chains:
+            for model in structure:
+                for residue in model[cg[0]]:
+                    resid = residue.get_id()[1]
+                    try:
+                        res_code = PDB.Polypeptide.three_to_one(residue.get_resname())
+                    except:
+                        log.warning("Residue %s in file %s couldn't be recognized; it will be skipped" %(residue, options.in_pdb))
+                        continue
+                    residue_list.append(tuple([ "%s%s%d" % (res_code, c, resid) for c in cg ]))
+    return residue_list
+
+def get_ddg_data(residue_list, mutation_list, ddg_dir):
+
+    data = []
+
+    if options.multimers:
+        res_ids_str = ["_".join(r) for r in residue_list]
+    else:
+        res_ids_str = residue_list
+        
+    res_restypes = [r[0][0] for r in residue_list]
+    
+    for fname in res_ids_str:
+        this_data = parse_ddg_file("%s/%s" % (options.input_path, fname), mutation_list)
+        data.append(np.array(this_data))
+    data = np.vstack(data)
+
+    remove =  []
+    positions = []
+    for i,r in enumerate(res_restypes):
+        if r in mutation_list:
+            remove.append(mutation_list.index(r))
+            positions.append(i)
+
+    mask = np.ones_like(data, dtype='bool')
+    mask[(positions, remove)] = 0
+    return data[mask].flatten()
+
+def plot_density(data, outfile, title, mycolor, bw_method, xmin, xmax, spaces):
+    fig, ax = plt.subplots()
+
+    kde = gaussian_kde(data, bw_method=bw_method)
+    x = np.linspace(xmin, xmax, spaces)
+    
+    kdv = kde(np.linspace(xmin, xmax, spaces))
+    
+    np.savetxt(options.kdvfile, np.array([x, kdv]).T, fmt='%.5f', header='DDG, density', comments='#')
+
+    ax.plot(x, kdv, color=mycolor)
+    ax.plot(data, np.zeros(data.shape[0])-np.max(kdv)/50.0*2, '|', ms=15, color=mycolor)
+    ax.set_xlabel(r'FoldX $\Delta\Delta{}G (kcal/mol)$')
+    ax.set_ylabel('Density')
+
+    if title is not None:
+        ax.title(title)
+
+    fig.tight_layout()
+    fig.savefig(outfile)
+
+parser = argparse.ArgumentParser(description='Generate probability density via kernel density estimation of the calculated DDG',)
+
+parser.add_argument("-p","--pdb", dest="in_pdb", help="Input pdb file")
+parser.add_argument("-d","--data-directory", dest="input_path", type=str, help="input data directory")
+parser.add_argument("-l","--mutation_list", dest="mutations",  help="mutation_list")
+parser.add_argument("-o","--output", dest="outfile", type=str, default="kde_density.pdf")
+parser.add_argument("-i","--title", dest='title', type=str, default=None, help="Title for the output image file")
+parser.add_argument("-c","--color", dest='mycolor', type=str, default="black", help="Color used to plot the DDG values")
+parser.add_argument("-u","--ddgfile", dest="ddgfile", type=str, default="ddg_values.dat", help="File containing all the used DDG values")
+parser.add_argument("-k","--kdvfile", dest="kdvfile", type=str, default="density_values.dat", help="File containing calculated density values")
+parser.add_argument("-m","--vmin", dest="vmin", type=float, default=-5, help="minimum DDG value for density determination")
+parser.add_argument("-x","--vmax", dest="vmax", type=float, default=10, help="maxomum DDG value for density determination")
+parser.add_argument("-g","--grid-points", dest="grid", type=int, default=150, help="number of point between minimum and maximum to calculate density on")
+parser.add_argument("-w","--bandwidth-method", dest="bw", default=None, help="method used to calculate the estimator bandwith in KDE. Same options as scipy KDE function")
+parser.add_argument("-M","--multimers", dest="multimers", default=True, action='store_false')
+
+options = parser.parse_args()
+
+pdb_parser = PDB.PDBParser()
+
+try:
+    structure = pdb_parser.get_structure('s', options.in_pdb)
+except:
+    log.error("Couldn't open or parse input pdb file. Exiting...")
+    exit(1)
+residue_list = get_residue_list(structure, multimers=options.multimers)
+
+try:
+    mutlist = parse_list_file(options.mutations)
+except:
+    log.warning("Mutation list file couldn't be parsed. Exiting...")
+    exit(1)
+
+data = get_ddg_data(residue_list, mutlist, options.input_path)
+
+plot_density(data, options.outfile, options.title, options.mycolor, options.bw, options.vmin, options.vmax, options.grid)
+
+np.savetxt(options.ddgfile, data, fmt='%.3f', header='DDG', comments='# ')
