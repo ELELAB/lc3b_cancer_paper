@@ -3,7 +3,7 @@
 xtc=ca
 xtc2=noCNter
 #xtc filtered with no Cterm and Nterm - for all CA atoms
-gmx trjcat -f ../../CHARMM22star/filt_trjs/$xtc.xtc ../../CHARMM27/filt_trjs/$xtc.xtc ../../CHARMM36/filt_trjs/$xtc.xtc ../../ff99SBstar-ILDN/filt_trjs/$xtc.xtc ../../ff99SBstar-ILDN-Q/filt_trjs/$xtc.xtc ../../ff99SBnmr1/filt_trjs/$xtc.xtc ../../ff14SB/filt_trjs/$xtc.xtc ../../RSFF1/filt_trjs/$xtc.xtc ../../RSFF2/filt_trjs/$xtc.xtc ../../a99SB-disp/filt_trjs/$xtc.xtc -o lc3b_free_combined_a99sbdisp.xtc -settime <<eof
+gmx trjcat -f ../../CHARMM22star/filt_trjs/$xtc.xtc ../../CHARMM27/filt_trjs/$xtc.xtc ../../CHARMM36/filt_trjs/$xtc.xtc ../../ff99SBstar-ILDN-Q/filt_trjs/$xtc.xtc ../../ff99SBnmr1/filt_trjs/$xtc.xtc ../../ff14SB/filt_trjs/$xtc.xtc ../../RSFF1/filt_trjs/$xtc.xtc ../../RSFF2/filt_trjs/$xtc.xtc ../../a99SB-disp/filt_trjs/$xtc.xtc -o lc3b_free_combined_a99sbdisp.xtc -settime <<eof
 0
 1000000
 2000000
@@ -14,10 +14,9 @@ gmx trjcat -f ../../CHARMM22star/filt_trjs/$xtc.xtc ../../CHARMM27/filt_trjs/$xt
 7000000
 8000000
 9000000
-10000000
 eof
 #xtc filtered removing C and N term - CA atoms
-gmx trjcat -f ../../CHARMM22star/filt_trjs/$xtc2.xtc ../../CHARMM27/filt_trjs/$xtc2.xtc ../../CHARMM36/filt_trjs/$xtc2.xtc ../../ff99SBstar-ILDN/filt_trjs/$xtc2.xtc ../../ff99SBstar-ILDN-Q/filt_trjs/$xtc2.xtc ../../ff99SBnmr1/filt_trjs/$xtc2.xtc ../../ff14SB/filt_trjs/$xtc2.xtc ../../RSFF1/filt_trjs/$xtc2.xtc ../../RSFF2/filt_trjs/$xtc2.xtc ../../a99SB-disp/filt_trjs/$xtc2.xtc -o lc3b_free_combined_a99sbdisp_noCNter.xtc -settime <<eof
+gmx trjcat -f ../../CHARMM22star/filt_trjs/$xtc2.xtc ../../CHARMM27/filt_trjs/$xtc2.xtc ../../CHARMM36/filt_trjs/$xtc2.xtc ../../ff99SBstar-ILDN-Q/filt_trjs/$xtc2.xtc ../../ff99SBnmr1/filt_trjs/$xtc2.xtc ../../ff14SB/filt_trjs/$xtc2.xtc ../../RSFF1/filt_trjs/$xtc2.xtc ../../RSFF2/filt_trjs/$xtc2.xtc ../../a99SB-disp/filt_trjs/$xtc2.xtc -o lc3b_free_combined_a99sbdisp_noCNter.xtc -settime <<eof
 0
 1000000
 2000000
@@ -28,7 +27,6 @@ gmx trjcat -f ../../CHARMM22star/filt_trjs/$xtc2.xtc ../../CHARMM27/filt_trjs/$x
 7000000
 8000000
 9000000
-10000000
 eof
 
 

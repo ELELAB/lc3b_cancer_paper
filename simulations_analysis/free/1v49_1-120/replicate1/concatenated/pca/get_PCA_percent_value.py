@@ -31,7 +31,8 @@ def get_rmsf(rmsfname):
 def printfile(filename):
     earray = array(get_rmsf(filename))
     earrayperc = cumsum(earray)/sum(earray)*100
-    print filename,
+    print filename, "\n", 
+
     j=1
     for i in earrayperc[0:neig]:
         print str(j)+"\t%8.3f" % i

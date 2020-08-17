@@ -1,6 +1,6 @@
 
 
-# read the concatenated trajectory for each force field and run the PCA analysis
+# read the concatenated trajectory containing each force field and run the PCA analysis
 ./run_pca_noCNter.sh
 
 # calculate the percentages of protein motion explained by each PC
