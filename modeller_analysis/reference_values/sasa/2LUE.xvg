@@ -1,0 +1,46 @@
+# This file was created Tue Jun 23 16:38:10 2020
+# Created by:
+#                       :-) GROMACS - gmx sasa, 2019.4 (-:
+# 
+# Executable:   /usr/local/gromacs-2019.4/bin/gmx
+# Data prefix:  /usr/local/gromacs-2019.4
+# Working dir:  /data/user/shared_projects/lc3b_md_paper/modeller_analysis/reference_values
+# Command line:
+#   gmx sasa -s cleaned_structures/2LUE.pdb -f cleaned_structures/2LUE.pdb -o sasa/2LUE.xvg -n ndxs/2LUE.ndx -surface -output
+# gmx sasa is part of G R O M A C S:
+#
+# Green Red Orange Magenta Azure Cyan Skyblue
+#
+@    title "Solvent Accessible Surface"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Area (nm\S2\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Total"
+@ s1 legend "chain_B_and_resnr_178_and_group_9"
+@ s2 legend "chain_B_and_resnr_181_and_group_9"
+      0.000   79.282    0.113    0.113
+      0.000   77.060    0.151    0.038
+      0.000   77.354    0.226    0.113
+      0.000   79.473    0.075    0.075
+      0.000   80.429    0.113    0.113
+      0.000   78.043    0.113    0.151
+      0.000   76.937    0.189    0.075
+      0.000   79.016    0.264    0.038
+      0.000   78.352    0.189    0.038
+      0.000   78.451    0.264    0.113
+      0.000   78.185    0.151    0.075
+      0.000   80.586    0.151    0.113
+      0.000   79.706    0.075    0.000
+      0.000   80.207    0.189    0.189
+      0.000   77.301    0.226    0.038
+      0.000   79.285    0.151    0.151
+      0.000   80.266    0.189    0.075
+      0.000   79.415    0.189    0.113
+      0.000   78.950    0.264    0.075
+      0.000   80.289    0.226    0.151

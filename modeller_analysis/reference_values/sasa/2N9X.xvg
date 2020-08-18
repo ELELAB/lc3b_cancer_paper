@@ -1,0 +1,46 @@
+# This file was created Tue Jun 23 16:38:08 2020
+# Created by:
+#                       :-) GROMACS - gmx sasa, 2019.4 (-:
+# 
+# Executable:   /usr/local/gromacs-2019.4/bin/gmx
+# Data prefix:  /usr/local/gromacs-2019.4
+# Working dir:  /data/user/shared_projects/lc3b_md_paper/modeller_analysis/reference_values
+# Command line:
+#   gmx sasa -s cleaned_structures/2N9X.pdb -f cleaned_structures/2N9X.pdb -o sasa/2N9X.xvg -n ndxs/2N9X.ndx -surface -output
+# gmx sasa is part of G R O M A C S:
+#
+# Gromacs Runs One Microsecond At Cannonball Speeds
+#
+@    title "Solvent Accessible Surface"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Area (nm\S2\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Total"
+@ s1 legend "chain_B_and_resnr_18_and_group_9"
+@ s2 legend "chain_B_and_resnr_21_and_group_9"
+      0.000   78.668    0.713    0.226
+      0.000   80.891    0.868    0.340
+      0.000   78.081    0.755    0.302
+      0.000   81.377    0.826    0.226
+      0.000   81.014    0.679    0.302
+      0.000   82.323    0.906    0.151
+      0.000   76.986    0.679    0.226
+      0.000   80.421    0.780    0.264
+      0.000   80.244    0.713    0.340
+      0.000   79.802    1.010    0.302
+      0.000   79.026    0.826    0.264
+      0.000   81.939    0.868    0.226
+      0.000   80.921    0.742    0.415
+      0.000   80.334    0.746    0.377
+      0.000   78.794    0.943    0.189
+      0.000   78.797    0.901    0.302
+      0.000   78.822    0.859    0.264
+      0.000   79.946    0.755    0.113
+      0.000   78.267    0.897    0.302
+      0.000   79.779    0.788    0.075

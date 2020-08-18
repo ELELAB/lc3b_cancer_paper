@@ -1,0 +1,27 @@
+# This file was created Tue Jun 23 16:38:06 2020
+# Created by:
+#                       :-) GROMACS - gmx sasa, 2019.4 (-:
+# 
+# Executable:   /usr/local/gromacs-2019.4/bin/gmx
+# Data prefix:  /usr/local/gromacs-2019.4
+# Working dir:  /data/user/shared_projects/lc3b_md_paper/modeller_analysis/reference_values
+# Command line:
+#   gmx sasa -s cleaned_structures/5DPW.pdb -f cleaned_structures/5DPW.pdb -o sasa/5DPW.xvg -n ndxs/5DPW.ndx -surface -output
+# gmx sasa is part of G R O M A C S:
+#
+# Great Red Oystrich Makes All Chemists Sane
+#
+@    title "Solvent Accessible Surface"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Area (nm\S2\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Total"
+@ s1 legend "chain_D_and_resnr_6_and_group_9"
+@ s2 legend "chain_D_and_resnr_9_and_group_9"
+      0.000   70.067    0.329    0.415
