@@ -1,0 +1,9 @@
+#We here decided to include for the LC3B M1-G120 (while for LC3A M1-G120 and LC3C I7-G126 in order to avoid too long N-term extension), reconstructing in MODELLER the missing residues. We included for the PLEKHM1 LIR V627-Q643, reconstructing in MODELLER the missing residues. We are modeling only the missing coordinates of the LIR and LC3B while all the rest of the structure is kept frozen (no optimization by MODELLER) during the modeling. In the case of chain B of 3x0w we have coordinates for the residues of LC3B P2-T118 and of PLEKHM1 LIR  W635-V638, all of these residues were kept frozen (no optimized by MODELLER)
+#The template structure 3x0w_chainB_no_HOH_chainize.pdb is the output of pdb-redo and preprocessed following a procedure described in the script 3X0W.pdbredo.sh located in /data/user/shared_projects/lc3b_md_paper/pdbredo
+#We converted the template structure 3x0w_chainB_no_HOH_chainize.pdb into fasta and later used it to generate the alignment file (called xxx.ali)  (N.B. fasta pdb2fasta.pl was not working so I used "https://zhanglab.ccmb.med.umich.edu/pdb2fasta/pdb2fasta.cgi")
+#We modified the alignment file (xxx.ali) to include the residues discussed above
+#We modified the MODELLER run script named modeller-multiple3_May2020.py to include the correct selection for the atoms/residues that shouldn’t or should be optimized during the modeling
+#We used Mod9.15 to predict the 1000 models swith the command mod9.15 modeller-multiple3_May2020.py
+#Analysis folder was created and performed the merging of all the pdbs using theseus
+( theseus ../lc3B_PLEKHM1.B99990*.pdb)
+#all the "Remark and extra world are remed and then saved as merged_models.pdb in main folder.
