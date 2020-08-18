@@ -1,0 +1,318 @@
+Graph loaded! 120 nodes, 23 edges
+Node list:
+	SYSTEM-1MET
+	SYSTEM-2PRO
+	SYSTEM-3SER
+	SYSTEM-4GLU
+	SYSTEM-5LYS
+	SYSTEM-6THR
+	SYSTEM-7PHE
+	SYSTEM-8LYS
+	SYSTEM-9GLN
+	SYSTEM-10ARG
+	SYSTEM-11ARG
+	SYSTEM-12THR
+	SYSTEM-13PHE
+	SYSTEM-14GLU
+	SYSTEM-15GLN
+	SYSTEM-16ARG
+	SYSTEM-17VAL
+	SYSTEM-18GLU
+	SYSTEM-19ASP
+	SYSTEM-20VAL
+	SYSTEM-21ARG
+	SYSTEM-22LEU
+	SYSTEM-23ILE
+	SYSTEM-24ARG
+	SYSTEM-25GLU
+	SYSTEM-26GLN
+	SYSTEM-27HIS
+	SYSTEM-28PRO
+	SYSTEM-29THR
+	SYSTEM-30LYS
+	SYSTEM-31ILE
+	SYSTEM-32PRO
+	SYSTEM-33VAL
+	SYSTEM-34ILE
+	SYSTEM-35ILE
+	SYSTEM-36GLU
+	SYSTEM-37ARG
+	SYSTEM-38TYR
+	SYSTEM-39LYS
+	SYSTEM-40GLY
+	SYSTEM-41GLU
+	SYSTEM-42LYS
+	SYSTEM-43GLN
+	SYSTEM-44LEU
+	SYSTEM-45PRO
+	SYSTEM-46VAL
+	SYSTEM-47LEU
+	SYSTEM-48ASP
+	SYSTEM-49LYS
+	SYSTEM-50THR
+	SYSTEM-51LYS
+	SYSTEM-52PHE
+	SYSTEM-53LEU
+	SYSTEM-54VAL
+	SYSTEM-55PRO
+	SYSTEM-56ASP
+	SYSTEM-57HIS
+	SYSTEM-58VAL
+	SYSTEM-59ASN
+	SYSTEM-60MET
+	SYSTEM-61SER
+	SYSTEM-62GLU
+	SYSTEM-63LEU
+	SYSTEM-64ILE
+	SYSTEM-65LYS
+	SYSTEM-66ILE
+	SYSTEM-67ILE
+	SYSTEM-68ARG
+	SYSTEM-69ARG
+	SYSTEM-70ARG
+	SYSTEM-71LEU
+	SYSTEM-72GLN
+	SYSTEM-73LEU
+	SYSTEM-74ASN
+	SYSTEM-75ALA
+	SYSTEM-76ASN
+	SYSTEM-77GLN
+	SYSTEM-78ALA
+	SYSTEM-79PHE
+	SYSTEM-80PHE
+	SYSTEM-81LEU
+	SYSTEM-82LEU
+	SYSTEM-83VAL
+	SYSTEM-84ASN
+	SYSTEM-85GLY
+	SYSTEM-86HIS
+	SYSTEM-87SER
+	SYSTEM-88MET
+	SYSTEM-89VAL
+	SYSTEM-90SER
+	SYSTEM-91VAL
+	SYSTEM-92SER
+	SYSTEM-93THR
+	SYSTEM-94PRO
+	SYSTEM-95ILE
+	SYSTEM-96SER
+	SYSTEM-97GLU
+	SYSTEM-98VAL
+	SYSTEM-99TYR
+	SYSTEM-100GLU
+	SYSTEM-101SER
+	SYSTEM-102GLU
+	SYSTEM-103LYS
+	SYSTEM-104ASP
+	SYSTEM-105GLU
+	SYSTEM-106ASP
+	SYSTEM-107GLY
+	SYSTEM-108PHE
+	SYSTEM-109LEU
+	SYSTEM-110TYR
+	SYSTEM-111MET
+	SYSTEM-112VAL
+	SYSTEM-113TYR
+	SYSTEM-114ALA
+	SYSTEM-115SER
+	SYSTEM-116GLN
+	SYSTEM-117GLU
+	SYSTEM-118THR
+	SYSTEM-119PHE
+	SYSTEM-120GLY
+Connected component 1:
+	 (1 elements) SYSTEM-79PHE
+Connected component 2:
+	 (1 elements) SYSTEM-32PRO
+Connected component 3:
+	 (1 elements) SYSTEM-109LEU
+Connected component 4:
+	 (2 elements) SYSTEM-90SER, SYSTEM-93THR
+Connected component 5:
+	 (1 elements) SYSTEM-120GLY
+Connected component 6:
+	 (3 elements) SYSTEM-48ASP, SYSTEM-49LYS, SYSTEM-70ARG
+Connected component 7:
+	 (2 elements) SYSTEM-100GLU, SYSTEM-103LYS
+Connected component 8:
+	 (1 elements) SYSTEM-115SER
+Connected component 9:
+	 (1 elements) SYSTEM-116GLN
+Connected component 10:
+	 (1 elements) SYSTEM-105GLU
+Connected component 11:
+	 (1 elements) SYSTEM-41GLU
+Connected component 12:
+	 (5 elements) SYSTEM-4GLU, SYSTEM-6THR, SYSTEM-36GLU, SYSTEM-37ARG, SYSTEM-42LYS
+Connected component 13:
+	 (1 elements) SYSTEM-40GLY
+Connected component 14:
+	 (1 elements) SYSTEM-85GLY
+Connected component 15:
+	 (1 elements) SYSTEM-74ASN
+Connected component 16:
+	 (1 elements) SYSTEM-77GLN
+Connected component 17:
+	 (1 elements) SYSTEM-46VAL
+Connected component 18:
+	 (1 elements) SYSTEM-64ILE
+Connected component 19:
+	 (1 elements) SYSTEM-117GLU
+Connected component 20:
+	 (3 elements) SYSTEM-11ARG, SYSTEM-19ASP, SYSTEM-51LYS
+Connected component 21:
+	 (1 elements) SYSTEM-13PHE
+Connected component 22:
+	 (1 elements) SYSTEM-67ILE
+Connected component 23:
+	 (1 elements) SYSTEM-73LEU
+Connected component 24:
+	 (1 elements) SYSTEM-17VAL
+Connected component 25:
+	 (2 elements) SYSTEM-10ARG, SYSTEM-50THR
+Connected component 26:
+	 (3 elements) SYSTEM-18GLU, SYSTEM-21ARG, SYSTEM-25GLU
+Connected component 27:
+	 (1 elements) SYSTEM-57HIS
+Connected component 28:
+	 (1 elements) SYSTEM-94PRO
+Connected component 29:
+	 (1 elements) SYSTEM-7PHE
+Connected component 30:
+	 (1 elements) SYSTEM-52PHE
+Connected component 31:
+	 (2 elements) SYSTEM-86HIS, SYSTEM-87SER
+Connected component 32:
+	 (1 elements) SYSTEM-2PRO
+Connected component 33:
+	 (1 elements) SYSTEM-29THR
+Connected component 34:
+	 (1 elements) SYSTEM-43GLN
+Connected component 35:
+	 (1 elements) SYSTEM-68ARG
+Connected component 36:
+	 (1 elements) SYSTEM-83VAL
+Connected component 37:
+	 (1 elements) SYSTEM-80PHE
+Connected component 38:
+	 (1 elements) SYSTEM-91VAL
+Connected component 39:
+	 (1 elements) SYSTEM-66ILE
+Connected component 40:
+	 (1 elements) SYSTEM-92SER
+Connected component 41:
+	 (1 elements) SYSTEM-38TYR
+Connected component 42:
+	 (1 elements) SYSTEM-81LEU
+Connected component 43:
+	 (1 elements) SYSTEM-119PHE
+Connected component 44:
+	 (1 elements) SYSTEM-26GLN
+Connected component 45:
+	 (1 elements) SYSTEM-89VAL
+Connected component 46:
+	 (1 elements) SYSTEM-61SER
+Connected component 47:
+	 (1 elements) SYSTEM-14GLU
+Connected component 48:
+	 (1 elements) SYSTEM-82LEU
+Connected component 49:
+	 (1 elements) SYSTEM-98VAL
+Connected component 50:
+	 (1 elements) SYSTEM-5LYS
+Connected component 51:
+	 (2 elements) SYSTEM-8LYS, SYSTEM-104ASP
+Connected component 52:
+	 (3 elements) SYSTEM-84ASN, SYSTEM-101SER, SYSTEM-102GLU
+Connected component 53:
+	 (1 elements) SYSTEM-34ILE
+Connected component 54:
+	 (1 elements) SYSTEM-78ALA
+Connected component 55:
+	 (1 elements) SYSTEM-118THR
+Connected component 56:
+	 (1 elements) SYSTEM-99TYR
+Connected component 57:
+	 (1 elements) SYSTEM-114ALA
+Connected component 58:
+	 (1 elements) SYSTEM-111MET
+Connected component 59:
+	 (3 elements) SYSTEM-59ASN, SYSTEM-62GLU, SYSTEM-65LYS
+Connected component 60:
+	 (1 elements) SYSTEM-15GLN
+Connected component 61:
+	 (1 elements) SYSTEM-58VAL
+Connected component 62:
+	 (1 elements) SYSTEM-97GLU
+Connected component 63:
+	 (1 elements) SYSTEM-24ARG
+Connected component 64:
+	 (1 elements) SYSTEM-108PHE
+Connected component 65:
+	 (1 elements) SYSTEM-39LYS
+Connected component 66:
+	 (1 elements) SYSTEM-112VAL
+Connected component 67:
+	 (1 elements) SYSTEM-44LEU
+Connected component 68:
+	 (1 elements) SYSTEM-54VAL
+Connected component 69:
+	 (1 elements) SYSTEM-60MET
+Connected component 70:
+	 (1 elements) SYSTEM-35ILE
+Connected component 71:
+	 (1 elements) SYSTEM-96SER
+Connected component 72:
+	 (1 elements) SYSTEM-75ALA
+Connected component 73:
+	 (1 elements) SYSTEM-22LEU
+Connected component 74:
+	 (1 elements) SYSTEM-47LEU
+Connected component 75:
+	 (1 elements) SYSTEM-56ASP
+Connected component 76:
+	 (1 elements) SYSTEM-72GLN
+Connected component 77:
+	 (1 elements) SYSTEM-53LEU
+Connected component 78:
+	 (2 elements) SYSTEM-27HIS, SYSTEM-30LYS
+Connected component 79:
+	 (1 elements) SYSTEM-28PRO
+Connected component 80:
+	 (1 elements) SYSTEM-20VAL
+Connected component 81:
+	 (1 elements) SYSTEM-1MET
+Connected component 82:
+	 (1 elements) SYSTEM-76ASN
+Connected component 83:
+	 (1 elements) SYSTEM-69ARG
+Connected component 84:
+	 (1 elements) SYSTEM-3SER
+Connected component 85:
+	 (1 elements) SYSTEM-31ILE
+Connected component 86:
+	 (1 elements) SYSTEM-107GLY
+Connected component 87:
+	 (1 elements) SYSTEM-113TYR
+Connected component 88:
+	 (1 elements) SYSTEM-33VAL
+Connected component 89:
+	 (1 elements) SYSTEM-55PRO
+Connected component 90:
+	 (3 elements) SYSTEM-16ARG, SYSTEM-106ASP, SYSTEM-110TYR
+Connected component 91:
+	 (1 elements) SYSTEM-12THR
+Connected component 92:
+	 (1 elements) SYSTEM-71LEU
+Connected component 93:
+	 (1 elements) SYSTEM-45PRO
+Connected component 94:
+	 (1 elements) SYSTEM-63LEU
+Connected component 95:
+	 (1 elements) SYSTEM-88MET
+Connected component 96:
+	 (1 elements) SYSTEM-9GLN
+Connected component 97:
+	 (1 elements) SYSTEM-95ILE
+Connected component 98:
+	 (1 elements) SYSTEM-23ILE
