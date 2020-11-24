@@ -2,8 +2,8 @@ Computational Biology Laboratory, Danish Cancer Society Research Center, Strandb
 
 Repository associated to the publication:
 
-The conformational and mutational landscape of the ubiquitin-like marker for the autophagosome formation in cancer
-Aykac Fas B, Maiani E, Sora V, Kumar M, Mashkoor M, Lambrughi M, Tiberti M, Papaleo E*
+The conformational and mutational landscape of the ubiquitin-like marker for autophagosome formation in cancer
+Aykac Fas B, Maiani E, Sora V, Kumar M, Mashkoor M, Lambrughi M, Tiberti M, Papaleo E*, Autophagy, in press, DOI: 10.1080/15548627.2020.1847443
 
 contacts for repository:elenap-at-cancer.dk
 
